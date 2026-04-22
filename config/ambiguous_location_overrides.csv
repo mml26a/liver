@@ -1,0 +1,3 @@
+location_name,preferred_ihme_loc_id,preferred_location_id,preferred_region,notes
+Georgia,GEO,,Central Asia,"Country Georgia; remove US state Georgia."
+Niger,NER,,Western Sub-Saharan Africa,"Country Niger; remove Niger state in Nigeria."
