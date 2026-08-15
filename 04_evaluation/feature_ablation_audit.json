@@ -1,0 +1,11 @@
+{
+  "model_family_per_task_locked_from_cv": true,
+  "outputs": {
+    "metrics_sha256": "a18e56dcff376b6a338a94a29923884a353abc718e07648137d60e38fd8d675c",
+    "model_manifest_sha256": "7e479457c81ee7ca7a9f585593ba925fea95bfcd70d792c6bd56b4b38f8f909d",
+    "predictions_sha256": "955b62010c289cce09978957a85ead4c85f4cbd0c04184483ee4c0cde262a2fa",
+    "removed_features_sha256": "f9c16db5f7c82022cf9eaaa184b4c0b3ab1d20a5ab1ae12f8740a3095c9f10c3"
+  },
+  "status": "complete",
+  "test_performance_not_used_to_choose_ablation_or_family": true
+}

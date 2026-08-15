@@ -1,0 +1,18 @@
+{
+  "implementation_sha256": "dcdfa6a2890d60da66bf59162b5c8f817ba1a4c6fd90e2cdd798006c26d825ba",
+  "model_family_selection_changed_after_test": false,
+  "model_utils_sha256": "cade33e892dfdb860a3c1b940a6f18cd3c8ea108a0e6f34661b073249f5ceea5",
+  "outputs": {
+    "conformal_quantiles_sha256": "20653cdd1b06b0aa30e1c0e72fae0bbe2f1fb378d445e70da6de5fb362d84ffa",
+    "fitted_model_manifest_sha256": "ff4fdf497b60090038f08406700827f29a53b816513018489218ccb480e7ad0d",
+    "metrics_sha256": "c9b0b97be6c13fba4ba87d4059829f66ac10b6ca57181de8291c885a776bc4d3",
+    "predictions_sha256": "9378ba4ee355a17edd7493e910dda5b47d0c62197c941b3a13f52224de083de7"
+  },
+  "prediction_rows": 67320,
+  "preprocessing_or_early_stopping_used_test_targets": false,
+  "sealed_test_rows": 3060,
+  "sealed_test_sha256": "99dea846e8ebca71d10df81f49b51f154a3e33f3511f309c06af6ea10568cd48",
+  "selection_lock_sha256": "49bdbb1929a31d257aedc7bd747c05691e222db2ba28e2a607f52cad9c74d147",
+  "status": "final_test_evaluated_without_reselection",
+  "test_opened_utc": "2026-08-10T18:07:08+00:00"
+}

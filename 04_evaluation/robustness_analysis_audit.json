@@ -1,0 +1,13 @@
+{
+  "bootstrap_cluster": "location_id",
+  "bootstrap_replicates": 2000,
+  "outputs": {
+    "bootstrap_sha256": "270e46ed9df4ab722b5f6f25598d6ee5e6252dc5cbfb3fda4e2740cdf9ba2179",
+    "distribution_shift_sha256": "105b1add3b3c7e6710076a75da88d3b3c40f2459116f0e2045aefba0b34d9ff6",
+    "residual_diagnostics_sha256": "ffa25e487fc60634c268ec3bbe9057ea39186d357720b8136c85e690f4a8d72a",
+    "subgroup_sha256": "ed75b3b492ebfde2c84c11ebc1125c9bc0d2ec67008c35fb720fb543ee01d045"
+  },
+  "predictions_sha256": "9378ba4ee355a17edd7493e910dda5b47d0c62197c941b3a13f52224de083de7",
+  "selection_lock_sha256": "49bdbb1929a31d257aedc7bd747c05691e222db2ba28e2a607f52cad9c74d147",
+  "status": "complete"
+}

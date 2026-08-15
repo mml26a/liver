@@ -1,0 +1,17 @@
+{
+  "features_excluded_because_ratio_specific_uncertainty_is_unavailable": [
+    "gbd_daly_fraction__current_rel_ui_width",
+    "gbd_death_fraction__current_rel_ui_width",
+    "derived__daly_fraction_definition_gap_pp",
+    "derived__death_fraction_definition_gap_pp"
+  ],
+  "hyperparameters_reused_without_test_tuning": true,
+  "outputs": {
+    "metrics_sha256": "790072ee36f6cc0cc8351ce1e38fb4906008f98256c2c94ba98f54dba11b428c",
+    "model_manifest_sha256": "501202133e524005acea707a97c370c14e249d67ba6b8d55b4e554f16e21a263",
+    "predictions_sha256": "a08d6d1f09698d7458efb43cf381d0caf2f3a96787a53ff96c9f79b32a3427f8"
+  },
+  "primary_fraction_definition": "direct GBD Percent",
+  "sensitivity_fraction_definition": "BMI-attributable ASR divided by overall liver-cancer ASR",
+  "status": "complete"
+}

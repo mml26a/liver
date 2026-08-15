@@ -1,0 +1,63 @@
+{
+  "python": {
+    "version": "3.12.13 (main, Mar  3 2026, 15:01:35) [MSC v.1944 64 bit (AMD64)]",
+    "implementation": "CPython",
+    "executable_relative_to_workspace": ".venv/Scripts/python.exe"
+  },
+  "platform": {
+    "system": "Windows",
+    "release": "11",
+    "version": "10.0.26200",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 191 Stepping 2, GenuineIntel",
+    "logical_cpu_count": 16
+  },
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.0",
+    "sklearn": "1.9.0",
+    "statsmodels": "0.14.6",
+    "xgboost": "3.4.0",
+    "torch": "2.13.0+cpu",
+    "matplotlib": "3.11.1",
+    "seaborn": "0.13.2",
+    "shap": "0.52.0",
+    "optuna": "4.9.0",
+    "pyarrow": "25.0.1",
+    "joblib": "1.5.3"
+  },
+  "torch_runtime": {
+    "cuda_available": false,
+    "cuda_device_count": 0,
+    "default_num_threads": 10,
+    "default_num_interop_threads": 10
+  },
+  "font_policy": {
+    "production_vector_pdf": "Helvetica via Matplotlib PDF core-14 fonts",
+    "pdf_use14corefonts": true,
+    "helvetica_afm_files": [
+      "Helvetica-Bold.afm",
+      "Helvetica-BoldOblique.afm",
+      "Helvetica-Oblique.afm",
+      "Helvetica.afm"
+    ],
+    "raster_preview_fallback": "Arial",
+    "arial_ttf_files": [
+      "ARIALN.TTF",
+      "ARIALNB.TTF",
+      "ARIALNBI.TTF",
+      "ARIALNI.TTF",
+      "arial.ttf",
+      "arialbd.ttf",
+      "arialbi.ttf",
+      "ariali.ttf"
+    ],
+    "required_qa": "Run pdffonts on every production PDF and require Helvetica family entries."
+  },
+  "hashes": {
+    "requirements_lock_sha256": "46848e42b3ef4ab10b8c0e7a7e1bdee338878a854a599e4c123c3231eda5e800",
+    "model_config_sha256": "cbe6f035fdca5d863edd7fcdf7529f6ed01f8a849eade1f991b8f0e41f24c6c8",
+    "feature_manifest_sha256": "5ca626587728ea419b40e5066df03dea71a1a9f2e4fc84eff59e12cfea656dd8"
+  }
+}

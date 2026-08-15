@@ -1,0 +1,703 @@
+{
+  "family_simplicity_order": {
+    "elastic_net": 5,
+    "extra_trees": 7,
+    "gru": 10,
+    "hist_gradient_boosting": 8,
+    "logtrend10": 2,
+    "logtrend5": 1,
+    "persistence": 0,
+    "pooled_ridge": 3,
+    "random_forest": 6,
+    "ridge": 4,
+    "xgboost": 9
+  },
+  "lock_created_utc": "2026-08-10T18:06:12+00:00",
+  "locked": true,
+  "sealed_final_test_not_loaded": true,
+  "selection_data_scope": "development-only expanding-window out-of-fold predictions through target year 2018",
+  "selection_metric": "rmsle",
+  "source_hashes": {
+    "cv_model_comparison_sha256": "fbd38f76e09c3358d0ade88669f2d7d7a326c85f71c7771f89f7308e61c24f97",
+    "development_samples_sha256": "1053b8f86cb6d6f5aed1b4ce3f3fa00a4dd13155d56b90ee1056d8eac262375f",
+    "development_sequence_panel_sha256": "699f4821ceb3ba249a93e739534b6346bf67fd6e34a5b8a84fcea4d5269ea1ea",
+    "gru_oof_sha256": "d2849e855277acdfcc155aaa587b456d0596512647ec46e62417e03bd0ece4bd",
+    "gru_runner_sha256": "91e9c178564eeee8606d3b0d48267d5b6d34cd0ca939f102091a1c4aed0eaad1",
+    "model_config_sha256": "cbe6f035fdca5d863edd7fcdf7529f6ed01f8a849eade1f991b8f0e41f24c6c8",
+    "model_utils_sha256": "cade33e892dfdb860a3c1b940a6f18cd3c8ea108a0e6f34661b073249f5ceea5",
+    "requirements_lock_sha256": "46848e42b3ef4ab10b8c0e7a7e1bdee338878a854a599e4c123c3231eda5e800",
+    "sealed_final_test_sha256_from_pre_model_manifest": "99dea846e8ebca71d10df81f49b51f154a3e33f3511f309c06af6ea10568cd48",
+    "selection_runner_sha256": "4f00f37b8d9f62410cd5ba8310559e547803b389ac4ef7a14de918be42ae2e29",
+    "tabular_oof_sha256": "32e472b9787304922ab641802e9c433c9de4e2c59eb7cdfbff3de751d24aab41",
+    "tabular_runner_sha256": "c30e58eab7ca16ca3de0508d8dc9afe833162062620e1f3e1309849ad9b21aac"
+  },
+  "tasks": [
+    {
+      "all_family_configurations": {
+        "elastic_net": {
+          "config_id": "4bb39b68baca",
+          "params": {
+            "alpha": 0.01,
+            "l1_ratio": 0.05
+          }
+        },
+        "extra_trees": {
+          "config_id": "c1c01c820d5c",
+          "params": {
+            "max_depth": 16,
+            "max_features": 1.0,
+            "min_samples_leaf": 5,
+            "n_estimators": 500
+          }
+        },
+        "gru": {
+          "config_id": "10d6c4e02550",
+          "final_epochs": 112,
+          "outer_fold_selected_epochs": [
+            117,
+            112,
+            87
+          ],
+          "params": {
+            "batch_size": 64,
+            "dropout": 0.1,
+            "hidden_size": 32,
+            "learning_rate": 0.0003,
+            "num_layers": 2,
+            "weight_decay": 1e-05
+          }
+        },
+        "hist_gradient_boosting": {
+          "config_id": "158ecf383b33",
+          "params": {
+            "l2_regularization": 0.0,
+            "learning_rate": 0.03,
+            "max_iter": 500,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 20
+          }
+        },
+        "logtrend10": {
+          "config_id": "logtrend10",
+          "params": {}
+        },
+        "logtrend5": {
+          "config_id": "logtrend5",
+          "params": {}
+        },
+        "persistence": {
+          "config_id": "persistence",
+          "params": {}
+        },
+        "pooled_ridge": {
+          "config_id": "391f696a66fa",
+          "params": {
+            "alpha": 10.0
+          }
+        },
+        "random_forest": {
+          "config_id": "7ed2c9aa3b0f",
+          "params": {
+            "max_depth": 8,
+            "max_features": 1.0,
+            "min_samples_leaf": 1,
+            "n_estimators": 500
+          }
+        },
+        "ridge": {
+          "config_id": "b06ea01f7f1d",
+          "params": {
+            "alpha": 10.0
+          }
+        },
+        "xgboost": {
+          "config_id": "90f6e616ad81",
+          "final_n_estimators": 642,
+          "outer_fold_effective_n_estimators": [
+            748,
+            642,
+            431
+          ],
+          "params": {
+            "colsample_bytree": 1.0,
+            "learning_rate": 0.02,
+            "max_depth": 2,
+            "min_child_weight": 5,
+            "n_estimators": 1200,
+            "reg_alpha": 0.0,
+            "reg_lambda": 1.0,
+            "subsample": 1.0
+          }
+        }
+      },
+      "horizon": 1,
+      "minimum_cv_mean_fold_rmsle": 0.03518378918674002,
+      "outcome": "daly",
+      "reference_transparent_cv_mean_fold_rmsle": 0.03554006765881405,
+      "reference_transparent_family": "pooled_ridge",
+      "reference_tree_cv_mean_fold_rmsle": 0.037737785114300225,
+      "reference_tree_family": "random_forest",
+      "selected_cv_mean_fold_rmsle": 0.03518378918674002,
+      "selected_family": "gru",
+      "selected_skill_vs_best_transparent": 0.010024698756747275,
+      "selected_skill_vs_persistence": 0.12685404742367556,
+      "selection_within_relative_tolerance": 0.01
+    },
+    {
+      "all_family_configurations": {
+        "elastic_net": {
+          "config_id": "194e6a9b2183",
+          "params": {
+            "alpha": 0.01,
+            "l1_ratio": 0.2
+          }
+        },
+        "extra_trees": {
+          "config_id": "c9c269148274",
+          "params": {
+            "max_depth": null,
+            "max_features": 0.5,
+            "min_samples_leaf": 1,
+            "n_estimators": 500
+          }
+        },
+        "gru": {
+          "config_id": "9464b37c0329",
+          "final_epochs": 222,
+          "outer_fold_selected_epochs": [
+            105,
+            285,
+            222
+          ],
+          "params": {
+            "batch_size": 128,
+            "dropout": 0.0,
+            "hidden_size": 16,
+            "learning_rate": 0.0003,
+            "num_layers": 1,
+            "weight_decay": 0.0001
+          }
+        },
+        "hist_gradient_boosting": {
+          "config_id": "8aa665bc2c0a",
+          "params": {
+            "l2_regularization": 0.0,
+            "learning_rate": 0.05,
+            "max_iter": 500,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 20
+          }
+        },
+        "logtrend10": {
+          "config_id": "logtrend10",
+          "params": {}
+        },
+        "logtrend5": {
+          "config_id": "logtrend5",
+          "params": {}
+        },
+        "persistence": {
+          "config_id": "persistence",
+          "params": {}
+        },
+        "pooled_ridge": {
+          "config_id": "391f696a66fa",
+          "params": {
+            "alpha": 10.0
+          }
+        },
+        "random_forest": {
+          "config_id": "54b0a9bd471e",
+          "params": {
+            "max_depth": 16,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1,
+            "n_estimators": 500
+          }
+        },
+        "ridge": {
+          "config_id": "41da9d593261",
+          "params": {
+            "alpha": 100.0
+          }
+        },
+        "xgboost": {
+          "config_id": "d944411e8369",
+          "final_n_estimators": 762,
+          "outer_fold_effective_n_estimators": [
+            349,
+            1199,
+            762
+          ],
+          "params": {
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.02,
+            "max_depth": 5,
+            "min_child_weight": 5,
+            "n_estimators": 1200,
+            "reg_alpha": 0.0,
+            "reg_lambda": 1.0,
+            "subsample": 0.9
+          }
+        }
+      },
+      "horizon": 3,
+      "minimum_cv_mean_fold_rmsle": 0.06820899203553558,
+      "outcome": "daly",
+      "reference_transparent_cv_mean_fold_rmsle": 0.07697530111035689,
+      "reference_transparent_family": "pooled_ridge",
+      "reference_tree_cv_mean_fold_rmsle": 0.06820899203553558,
+      "reference_tree_family": "extra_trees",
+      "selected_cv_mean_fold_rmsle": 0.06820899203553558,
+      "selected_family": "extra_trees",
+      "selected_skill_vs_best_transparent": 0.1138847000059583,
+      "selected_skill_vs_persistence": 0.2846306264516433,
+      "selection_within_relative_tolerance": 0.01
+    },
+    {
+      "all_family_configurations": {
+        "elastic_net": {
+          "config_id": "25d367de568e",
+          "params": {
+            "alpha": 0.1,
+            "l1_ratio": 0.05
+          }
+        },
+        "extra_trees": {
+          "config_id": "94a0f9db0d5a",
+          "params": {
+            "max_depth": null,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1,
+            "n_estimators": 500
+          }
+        },
+        "gru": {
+          "config_id": "943f9f70e53a",
+          "final_epochs": 127,
+          "outer_fold_selected_epochs": [
+            127,
+            295,
+            78
+          ],
+          "params": {
+            "batch_size": 64,
+            "dropout": 0.0,
+            "hidden_size": 32,
+            "learning_rate": 0.001,
+            "num_layers": 2,
+            "weight_decay": 1e-05
+          }
+        },
+        "hist_gradient_boosting": {
+          "config_id": "3a56863c0815",
+          "params": {
+            "l2_regularization": 0.0,
+            "learning_rate": 0.05,
+            "max_iter": 500,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 10
+          }
+        },
+        "logtrend10": {
+          "config_id": "logtrend10",
+          "params": {}
+        },
+        "logtrend5": {
+          "config_id": "logtrend5",
+          "params": {}
+        },
+        "persistence": {
+          "config_id": "persistence",
+          "params": {}
+        },
+        "pooled_ridge": {
+          "config_id": "391f696a66fa",
+          "params": {
+            "alpha": 10.0
+          }
+        },
+        "random_forest": {
+          "config_id": "3f188ebebf8a",
+          "params": {
+            "max_depth": 16,
+            "max_features": "sqrt",
+            "min_samples_leaf": 3,
+            "n_estimators": 500
+          }
+        },
+        "ridge": {
+          "config_id": "41da9d593261",
+          "params": {
+            "alpha": 100.0
+          }
+        },
+        "xgboost": {
+          "config_id": "041111c9cacc",
+          "final_n_estimators": 1098,
+          "outer_fold_effective_n_estimators": [
+            1098,
+            854,
+            1198
+          ],
+          "params": {
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.05,
+            "max_depth": 4,
+            "min_child_weight": 1,
+            "n_estimators": 1200,
+            "reg_alpha": 0.1,
+            "reg_lambda": 5.0,
+            "subsample": 0.9
+          }
+        }
+      },
+      "horizon": 5,
+      "minimum_cv_mean_fold_rmsle": 0.08189067552397915,
+      "outcome": "daly",
+      "reference_transparent_cv_mean_fold_rmsle": 0.11364075871532775,
+      "reference_transparent_family": "pooled_ridge",
+      "reference_tree_cv_mean_fold_rmsle": 0.08189067552397915,
+      "reference_tree_family": "extra_trees",
+      "selected_cv_mean_fold_rmsle": 0.08189067552397915,
+      "selected_family": "extra_trees",
+      "selected_skill_vs_best_transparent": 0.2793899262049382,
+      "selected_skill_vs_persistence": 0.44340145751750715,
+      "selection_within_relative_tolerance": 0.01
+    },
+    {
+      "all_family_configurations": {
+        "elastic_net": {
+          "config_id": "4bb39b68baca",
+          "params": {
+            "alpha": 0.01,
+            "l1_ratio": 0.05
+          }
+        },
+        "extra_trees": {
+          "config_id": "c1c01c820d5c",
+          "params": {
+            "max_depth": 16,
+            "max_features": 1.0,
+            "min_samples_leaf": 5,
+            "n_estimators": 500
+          }
+        },
+        "gru": {
+          "config_id": "e52853378bf3",
+          "final_epochs": 49,
+          "outer_fold_selected_epochs": [
+            49,
+            88,
+            47
+          ],
+          "params": {
+            "batch_size": 128,
+            "dropout": 0.0,
+            "hidden_size": 32,
+            "learning_rate": 0.001,
+            "num_layers": 1,
+            "weight_decay": 1e-05
+          }
+        },
+        "hist_gradient_boosting": {
+          "config_id": "4dff64078040",
+          "params": {
+            "l2_regularization": 1.0,
+            "learning_rate": 0.03,
+            "max_iter": 500,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 10
+          }
+        },
+        "logtrend10": {
+          "config_id": "logtrend10",
+          "params": {}
+        },
+        "logtrend5": {
+          "config_id": "logtrend5",
+          "params": {}
+        },
+        "persistence": {
+          "config_id": "persistence",
+          "params": {}
+        },
+        "pooled_ridge": {
+          "config_id": "391f696a66fa",
+          "params": {
+            "alpha": 10.0
+          }
+        },
+        "random_forest": {
+          "config_id": "7ed2c9aa3b0f",
+          "params": {
+            "max_depth": 8,
+            "max_features": 1.0,
+            "min_samples_leaf": 1,
+            "n_estimators": 500
+          }
+        },
+        "ridge": {
+          "config_id": "41da9d593261",
+          "params": {
+            "alpha": 100.0
+          }
+        },
+        "xgboost": {
+          "config_id": "62339887bc4f",
+          "final_n_estimators": 132,
+          "outer_fold_effective_n_estimators": [
+            132,
+            135,
+            110
+          ],
+          "params": {
+            "colsample_bytree": 1.0,
+            "learning_rate": 0.05,
+            "max_depth": 4,
+            "min_child_weight": 1,
+            "n_estimators": 1200,
+            "reg_alpha": 0.0,
+            "reg_lambda": 1.0,
+            "subsample": 1.0
+          }
+        }
+      },
+      "horizon": 1,
+      "minimum_cv_mean_fold_rmsle": 0.013939877479834746,
+      "outcome": "death",
+      "reference_transparent_cv_mean_fold_rmsle": 0.014118059485127211,
+      "reference_transparent_family": "pooled_ridge",
+      "reference_tree_cv_mean_fold_rmsle": 0.015338398797803797,
+      "reference_tree_family": "extra_trees",
+      "selected_cv_mean_fold_rmsle": 0.013939877479834746,
+      "selected_family": "gru",
+      "selected_skill_vs_best_transparent": 0.012620856675109815,
+      "selected_skill_vs_persistence": 0.09594180451764966,
+      "selection_within_relative_tolerance": 0.01
+    },
+    {
+      "all_family_configurations": {
+        "elastic_net": {
+          "config_id": "194e6a9b2183",
+          "params": {
+            "alpha": 0.01,
+            "l1_ratio": 0.2
+          }
+        },
+        "extra_trees": {
+          "config_id": "2861e6754a08",
+          "params": {
+            "max_depth": 16,
+            "max_features": 0.5,
+            "min_samples_leaf": 1,
+            "n_estimators": 500
+          }
+        },
+        "gru": {
+          "config_id": "718ad7adea4d",
+          "final_epochs": 71,
+          "outer_fold_selected_epochs": [
+            82,
+            52,
+            71
+          ],
+          "params": {
+            "batch_size": 64,
+            "dropout": 0.0,
+            "hidden_size": 16,
+            "learning_rate": 0.001,
+            "num_layers": 1,
+            "weight_decay": 0.0001
+          }
+        },
+        "hist_gradient_boosting": {
+          "config_id": "1975734042e9",
+          "params": {
+            "l2_regularization": 10.0,
+            "learning_rate": 0.05,
+            "max_iter": 500,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 10
+          }
+        },
+        "logtrend10": {
+          "config_id": "logtrend10",
+          "params": {}
+        },
+        "logtrend5": {
+          "config_id": "logtrend5",
+          "params": {}
+        },
+        "persistence": {
+          "config_id": "persistence",
+          "params": {}
+        },
+        "pooled_ridge": {
+          "config_id": "391f696a66fa",
+          "params": {
+            "alpha": 10.0
+          }
+        },
+        "random_forest": {
+          "config_id": "ce0baa644b4d",
+          "params": {
+            "max_depth": 16,
+            "max_features": 0.5,
+            "min_samples_leaf": 1,
+            "n_estimators": 500
+          }
+        },
+        "ridge": {
+          "config_id": "41da9d593261",
+          "params": {
+            "alpha": 100.0
+          }
+        },
+        "xgboost": {
+          "config_id": "ddcde154f4ea",
+          "final_n_estimators": 995,
+          "outer_fold_effective_n_estimators": [
+            653,
+            1199,
+            995
+          ],
+          "params": {
+            "colsample_bytree": 1.0,
+            "learning_rate": 0.02,
+            "max_depth": 4,
+            "min_child_weight": 5,
+            "n_estimators": 1200,
+            "reg_alpha": 0.1,
+            "reg_lambda": 5.0,
+            "subsample": 0.9
+          }
+        }
+      },
+      "horizon": 3,
+      "minimum_cv_mean_fold_rmsle": 0.026437758678361564,
+      "outcome": "death",
+      "reference_transparent_cv_mean_fold_rmsle": 0.030789583338728933,
+      "reference_transparent_family": "pooled_ridge",
+      "reference_tree_cv_mean_fold_rmsle": 0.026437758678361564,
+      "reference_tree_family": "extra_trees",
+      "selected_cv_mean_fold_rmsle": 0.026437758678361564,
+      "selected_family": "extra_trees",
+      "selected_skill_vs_best_transparent": 0.14134081038028823,
+      "selected_skill_vs_persistence": 0.2613803940210784,
+      "selection_within_relative_tolerance": 0.01
+    },
+    {
+      "all_family_configurations": {
+        "elastic_net": {
+          "config_id": "194e6a9b2183",
+          "params": {
+            "alpha": 0.01,
+            "l1_ratio": 0.2
+          }
+        },
+        "extra_trees": {
+          "config_id": "2861e6754a08",
+          "params": {
+            "max_depth": 16,
+            "max_features": 0.5,
+            "min_samples_leaf": 1,
+            "n_estimators": 500
+          }
+        },
+        "gru": {
+          "config_id": "13015063f222",
+          "final_epochs": 156,
+          "outer_fold_selected_epochs": [
+            286,
+            156,
+            150
+          ],
+          "params": {
+            "batch_size": 64,
+            "dropout": 0.0,
+            "hidden_size": 64,
+            "learning_rate": 0.001,
+            "num_layers": 2,
+            "weight_decay": 0.001
+          }
+        },
+        "hist_gradient_boosting": {
+          "config_id": "413da082a50a",
+          "params": {
+            "l2_regularization": 0.1,
+            "learning_rate": 0.05,
+            "max_iter": 500,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 10
+          }
+        },
+        "logtrend10": {
+          "config_id": "logtrend10",
+          "params": {}
+        },
+        "logtrend5": {
+          "config_id": "logtrend5",
+          "params": {}
+        },
+        "persistence": {
+          "config_id": "persistence",
+          "params": {}
+        },
+        "pooled_ridge": {
+          "config_id": "391f696a66fa",
+          "params": {
+            "alpha": 10.0
+          }
+        },
+        "random_forest": {
+          "config_id": "ce0baa644b4d",
+          "params": {
+            "max_depth": 16,
+            "max_features": 0.5,
+            "min_samples_leaf": 1,
+            "n_estimators": 500
+          }
+        },
+        "ridge": {
+          "config_id": "0a0d7970fc7f",
+          "params": {
+            "alpha": 1000.0
+          }
+        },
+        "xgboost": {
+          "config_id": "b09f69ab571b",
+          "final_n_estimators": 1199,
+          "outer_fold_effective_n_estimators": [
+            809,
+            1199,
+            1200
+          ],
+          "params": {
+            "colsample_bytree": 0.5,
+            "learning_rate": 0.05,
+            "max_depth": 4,
+            "min_child_weight": 5,
+            "n_estimators": 1200,
+            "reg_alpha": 0.0,
+            "reg_lambda": 5.0,
+            "subsample": 0.7
+          }
+        }
+      },
+      "horizon": 5,
+      "minimum_cv_mean_fold_rmsle": 0.03208069486298168,
+      "outcome": "death",
+      "reference_transparent_cv_mean_fold_rmsle": 0.045638997298584845,
+      "reference_transparent_family": "pooled_ridge",
+      "reference_tree_cv_mean_fold_rmsle": 0.03208069486298168,
+      "reference_tree_family": "extra_trees",
+      "selected_cv_mean_fold_rmsle": 0.03208069486298168,
+      "selected_family": "extra_trees",
+      "selected_skill_vs_best_transparent": 0.2970771322362855,
+      "selected_skill_vs_persistence": 0.4133378615139254,
+      "selection_within_relative_tolerance": 0.01
+    }
+  ],
+  "tie_rule": "Among configurations/families within 1% relative RMSLE of the minimum, select the prespecified lower-complexity option."
+}

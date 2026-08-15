@@ -1,0 +1,11 @@
+{
+  "explanation_is_descriptive_not_causal": true,
+  "explanation_scale": "model output in log1p target space",
+  "outputs": {
+    "feature_family_importance_sha256": "18589990defb48cd326a0a2c32de2412321bb28ecf9aa0b5a80b15145cf94eab",
+    "feature_importance_sha256": "9e2c86b170ee0f869c873601516516a50900ae2c75af14eb576fd07b34df507a",
+    "shap_values_sha256": "77950586ec5768dbc8ed10d712fb4adbc1809d52c408aa1f0358dbb107d18b65"
+  },
+  "sampling": "up to 300 rows per locked final-test partition per task; no target-based sampling",
+  "status": "complete"
+}

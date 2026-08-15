@@ -1,0 +1,18 @@
+{
+  "fitted_objects": 60,
+  "outputs": {
+    "metrics_sha256": "dfdaecf6c4954e37b68b758db581a1ce0180ec6e7f7c56a73dd694edd4168305",
+    "model_manifest_sha256": "8239735bbd2538cc29027a5ce4f576ae6a3d97e26ec687c2682d00bf89172c1c",
+    "predictions_sha256": "f26b957d11f3e6f06036f1fdab4316d408e792e333479638f172bc280e73bd9b",
+    "summary_sha256": "2a926985f89f4726dbcafd153a376bdcd94a17c521bf77fdf62fc0d1b51cc498"
+  },
+  "prediction_rows": 61200,
+  "seeds": [
+    20260810,
+    20260811,
+    20260812,
+    20260813,
+    20260814
+  ],
+  "status": "complete"
+}

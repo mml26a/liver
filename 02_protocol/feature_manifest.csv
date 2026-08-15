@@ -1,0 +1,180 @@
+column,role,available_at_prediction_origin,maximum_source_year_offset_from_origin,source_year_rule,requires_fold_fitted_preprocessing
+bmi_daly_rate__current,model_feature,True,0,origin_year or earlier,False
+bmi_daly_rate__lag1,model_feature,True,0,origin_year minus stated lag,False
+bmi_daly_rate__delta1,model_feature,True,0,origin_year or earlier,False
+bmi_daly_rate__log_growth1,model_feature,True,0,origin_year or earlier,False
+bmi_daly_rate__lag3,model_feature,True,0,origin_year minus stated lag,False
+bmi_daly_rate__delta3,model_feature,True,0,origin_year or earlier,False
+bmi_daly_rate__log_growth3,model_feature,True,0,origin_year or earlier,False
+bmi_daly_rate__lag5,model_feature,True,0,origin_year minus stated lag,False
+bmi_daly_rate__delta5,model_feature,True,0,origin_year or earlier,False
+bmi_daly_rate__log_growth5,model_feature,True,0,origin_year or earlier,False
+bmi_daly_rate__lag10,model_feature,True,0,origin_year minus stated lag,False
+bmi_daly_rate__delta10,model_feature,True,0,origin_year or earlier,False
+bmi_daly_rate__log_growth10,model_feature,True,0,origin_year or earlier,False
+bmi_daly_rate__mean3,model_feature,True,0,trailing window ending at origin_year,False
+bmi_daly_rate__std3,model_feature,True,0,trailing window ending at origin_year,False
+bmi_daly_rate__cv3,model_feature,True,0,trailing window ending at origin_year,False
+bmi_daly_rate__mean5,model_feature,True,0,trailing window ending at origin_year,False
+bmi_daly_rate__std5,model_feature,True,0,trailing window ending at origin_year,False
+bmi_daly_rate__cv5,model_feature,True,0,trailing window ending at origin_year,False
+bmi_daly_rate__mean10,model_feature,True,0,trailing window ending at origin_year,False
+bmi_daly_rate__std10,model_feature,True,0,trailing window ending at origin_year,False
+bmi_daly_rate__cv10,model_feature,True,0,trailing window ending at origin_year,False
+bmi_daly_rate__log_slope5,model_feature,True,0,trailing window ending at origin_year,False
+bmi_daly_rate__log_slope10,model_feature,True,0,trailing window ending at origin_year,False
+bmi_death_rate__current,model_feature,True,0,origin_year or earlier,False
+bmi_death_rate__lag1,model_feature,True,0,origin_year minus stated lag,False
+bmi_death_rate__delta1,model_feature,True,0,origin_year or earlier,False
+bmi_death_rate__log_growth1,model_feature,True,0,origin_year or earlier,False
+bmi_death_rate__lag3,model_feature,True,0,origin_year minus stated lag,False
+bmi_death_rate__delta3,model_feature,True,0,origin_year or earlier,False
+bmi_death_rate__log_growth3,model_feature,True,0,origin_year or earlier,False
+bmi_death_rate__lag5,model_feature,True,0,origin_year minus stated lag,False
+bmi_death_rate__delta5,model_feature,True,0,origin_year or earlier,False
+bmi_death_rate__log_growth5,model_feature,True,0,origin_year or earlier,False
+bmi_death_rate__lag10,model_feature,True,0,origin_year minus stated lag,False
+bmi_death_rate__delta10,model_feature,True,0,origin_year or earlier,False
+bmi_death_rate__log_growth10,model_feature,True,0,origin_year or earlier,False
+bmi_death_rate__mean3,model_feature,True,0,trailing window ending at origin_year,False
+bmi_death_rate__std3,model_feature,True,0,trailing window ending at origin_year,False
+bmi_death_rate__cv3,model_feature,True,0,trailing window ending at origin_year,False
+bmi_death_rate__mean5,model_feature,True,0,trailing window ending at origin_year,False
+bmi_death_rate__std5,model_feature,True,0,trailing window ending at origin_year,False
+bmi_death_rate__cv5,model_feature,True,0,trailing window ending at origin_year,False
+bmi_death_rate__mean10,model_feature,True,0,trailing window ending at origin_year,False
+bmi_death_rate__std10,model_feature,True,0,trailing window ending at origin_year,False
+bmi_death_rate__cv10,model_feature,True,0,trailing window ending at origin_year,False
+bmi_death_rate__log_slope5,model_feature,True,0,trailing window ending at origin_year,False
+bmi_death_rate__log_slope10,model_feature,True,0,trailing window ending at origin_year,False
+gbd_daly_fraction__current,model_feature,True,0,origin_year or earlier,False
+gbd_daly_fraction__lag1,model_feature,True,0,origin_year minus stated lag,False
+gbd_daly_fraction__delta1,model_feature,True,0,origin_year or earlier,False
+gbd_daly_fraction__log_growth1,model_feature,True,0,origin_year or earlier,False
+gbd_daly_fraction__lag3,model_feature,True,0,origin_year minus stated lag,False
+gbd_daly_fraction__delta3,model_feature,True,0,origin_year or earlier,False
+gbd_daly_fraction__log_growth3,model_feature,True,0,origin_year or earlier,False
+gbd_daly_fraction__lag5,model_feature,True,0,origin_year minus stated lag,False
+gbd_daly_fraction__delta5,model_feature,True,0,origin_year or earlier,False
+gbd_daly_fraction__log_growth5,model_feature,True,0,origin_year or earlier,False
+gbd_daly_fraction__lag10,model_feature,True,0,origin_year minus stated lag,False
+gbd_daly_fraction__delta10,model_feature,True,0,origin_year or earlier,False
+gbd_daly_fraction__log_growth10,model_feature,True,0,origin_year or earlier,False
+gbd_daly_fraction__mean3,model_feature,True,0,trailing window ending at origin_year,False
+gbd_daly_fraction__std3,model_feature,True,0,trailing window ending at origin_year,False
+gbd_daly_fraction__cv3,model_feature,True,0,trailing window ending at origin_year,False
+gbd_daly_fraction__mean5,model_feature,True,0,trailing window ending at origin_year,False
+gbd_daly_fraction__std5,model_feature,True,0,trailing window ending at origin_year,False
+gbd_daly_fraction__cv5,model_feature,True,0,trailing window ending at origin_year,False
+gbd_daly_fraction__mean10,model_feature,True,0,trailing window ending at origin_year,False
+gbd_daly_fraction__std10,model_feature,True,0,trailing window ending at origin_year,False
+gbd_daly_fraction__cv10,model_feature,True,0,trailing window ending at origin_year,False
+gbd_daly_fraction__log_slope5,model_feature,True,0,trailing window ending at origin_year,False
+gbd_daly_fraction__log_slope10,model_feature,True,0,trailing window ending at origin_year,False
+gbd_death_fraction__current,model_feature,True,0,origin_year or earlier,False
+gbd_death_fraction__lag1,model_feature,True,0,origin_year minus stated lag,False
+gbd_death_fraction__delta1,model_feature,True,0,origin_year or earlier,False
+gbd_death_fraction__log_growth1,model_feature,True,0,origin_year or earlier,False
+gbd_death_fraction__lag3,model_feature,True,0,origin_year minus stated lag,False
+gbd_death_fraction__delta3,model_feature,True,0,origin_year or earlier,False
+gbd_death_fraction__log_growth3,model_feature,True,0,origin_year or earlier,False
+gbd_death_fraction__lag5,model_feature,True,0,origin_year minus stated lag,False
+gbd_death_fraction__delta5,model_feature,True,0,origin_year or earlier,False
+gbd_death_fraction__log_growth5,model_feature,True,0,origin_year or earlier,False
+gbd_death_fraction__lag10,model_feature,True,0,origin_year minus stated lag,False
+gbd_death_fraction__delta10,model_feature,True,0,origin_year or earlier,False
+gbd_death_fraction__log_growth10,model_feature,True,0,origin_year or earlier,False
+gbd_death_fraction__mean3,model_feature,True,0,trailing window ending at origin_year,False
+gbd_death_fraction__std3,model_feature,True,0,trailing window ending at origin_year,False
+gbd_death_fraction__cv3,model_feature,True,0,trailing window ending at origin_year,False
+gbd_death_fraction__mean5,model_feature,True,0,trailing window ending at origin_year,False
+gbd_death_fraction__std5,model_feature,True,0,trailing window ending at origin_year,False
+gbd_death_fraction__cv5,model_feature,True,0,trailing window ending at origin_year,False
+gbd_death_fraction__mean10,model_feature,True,0,trailing window ending at origin_year,False
+gbd_death_fraction__std10,model_feature,True,0,trailing window ending at origin_year,False
+gbd_death_fraction__cv10,model_feature,True,0,trailing window ending at origin_year,False
+gbd_death_fraction__log_slope5,model_feature,True,0,trailing window ending at origin_year,False
+gbd_death_fraction__log_slope10,model_feature,True,0,trailing window ending at origin_year,False
+overall_daly_rate__current,model_feature,True,0,origin_year or earlier,False
+overall_daly_rate__lag1,model_feature,True,0,origin_year minus stated lag,False
+overall_daly_rate__delta1,model_feature,True,0,origin_year or earlier,False
+overall_daly_rate__log_growth1,model_feature,True,0,origin_year or earlier,False
+overall_daly_rate__lag3,model_feature,True,0,origin_year minus stated lag,False
+overall_daly_rate__delta3,model_feature,True,0,origin_year or earlier,False
+overall_daly_rate__log_growth3,model_feature,True,0,origin_year or earlier,False
+overall_daly_rate__lag5,model_feature,True,0,origin_year minus stated lag,False
+overall_daly_rate__delta5,model_feature,True,0,origin_year or earlier,False
+overall_daly_rate__log_growth5,model_feature,True,0,origin_year or earlier,False
+overall_daly_rate__lag10,model_feature,True,0,origin_year minus stated lag,False
+overall_daly_rate__delta10,model_feature,True,0,origin_year or earlier,False
+overall_daly_rate__log_growth10,model_feature,True,0,origin_year or earlier,False
+overall_daly_rate__mean3,model_feature,True,0,trailing window ending at origin_year,False
+overall_daly_rate__std3,model_feature,True,0,trailing window ending at origin_year,False
+overall_daly_rate__cv3,model_feature,True,0,trailing window ending at origin_year,False
+overall_daly_rate__mean5,model_feature,True,0,trailing window ending at origin_year,False
+overall_daly_rate__std5,model_feature,True,0,trailing window ending at origin_year,False
+overall_daly_rate__cv5,model_feature,True,0,trailing window ending at origin_year,False
+overall_daly_rate__mean10,model_feature,True,0,trailing window ending at origin_year,False
+overall_daly_rate__std10,model_feature,True,0,trailing window ending at origin_year,False
+overall_daly_rate__cv10,model_feature,True,0,trailing window ending at origin_year,False
+overall_daly_rate__log_slope5,model_feature,True,0,trailing window ending at origin_year,False
+overall_daly_rate__log_slope10,model_feature,True,0,trailing window ending at origin_year,False
+overall_death_rate__current,model_feature,True,0,origin_year or earlier,False
+overall_death_rate__lag1,model_feature,True,0,origin_year minus stated lag,False
+overall_death_rate__delta1,model_feature,True,0,origin_year or earlier,False
+overall_death_rate__log_growth1,model_feature,True,0,origin_year or earlier,False
+overall_death_rate__lag3,model_feature,True,0,origin_year minus stated lag,False
+overall_death_rate__delta3,model_feature,True,0,origin_year or earlier,False
+overall_death_rate__log_growth3,model_feature,True,0,origin_year or earlier,False
+overall_death_rate__lag5,model_feature,True,0,origin_year minus stated lag,False
+overall_death_rate__delta5,model_feature,True,0,origin_year or earlier,False
+overall_death_rate__log_growth5,model_feature,True,0,origin_year or earlier,False
+overall_death_rate__lag10,model_feature,True,0,origin_year minus stated lag,False
+overall_death_rate__delta10,model_feature,True,0,origin_year or earlier,False
+overall_death_rate__log_growth10,model_feature,True,0,origin_year or earlier,False
+overall_death_rate__mean3,model_feature,True,0,trailing window ending at origin_year,False
+overall_death_rate__std3,model_feature,True,0,trailing window ending at origin_year,False
+overall_death_rate__cv3,model_feature,True,0,trailing window ending at origin_year,False
+overall_death_rate__mean5,model_feature,True,0,trailing window ending at origin_year,False
+overall_death_rate__std5,model_feature,True,0,trailing window ending at origin_year,False
+overall_death_rate__cv5,model_feature,True,0,trailing window ending at origin_year,False
+overall_death_rate__mean10,model_feature,True,0,trailing window ending at origin_year,False
+overall_death_rate__std10,model_feature,True,0,trailing window ending at origin_year,False
+overall_death_rate__cv10,model_feature,True,0,trailing window ending at origin_year,False
+overall_death_rate__log_slope5,model_feature,True,0,trailing window ending at origin_year,False
+overall_death_rate__log_slope10,model_feature,True,0,trailing window ending at origin_year,False
+sdi__current,model_feature,True,0,origin_year or earlier,False
+sdi__lag1,model_feature,True,0,origin_year minus stated lag,False
+sdi__delta1,model_feature,True,0,origin_year or earlier,False
+sdi__log_growth1,model_feature,True,0,origin_year or earlier,False
+sdi__lag3,model_feature,True,0,origin_year minus stated lag,False
+sdi__delta3,model_feature,True,0,origin_year or earlier,False
+sdi__log_growth3,model_feature,True,0,origin_year or earlier,False
+sdi__lag5,model_feature,True,0,origin_year minus stated lag,False
+sdi__delta5,model_feature,True,0,origin_year or earlier,False
+sdi__log_growth5,model_feature,True,0,origin_year or earlier,False
+sdi__lag10,model_feature,True,0,origin_year minus stated lag,False
+sdi__delta10,model_feature,True,0,origin_year or earlier,False
+sdi__log_growth10,model_feature,True,0,origin_year or earlier,False
+sdi__mean3,model_feature,True,0,trailing window ending at origin_year,False
+sdi__std3,model_feature,True,0,trailing window ending at origin_year,False
+sdi__cv3,model_feature,True,0,trailing window ending at origin_year,False
+sdi__mean5,model_feature,True,0,trailing window ending at origin_year,False
+sdi__std5,model_feature,True,0,trailing window ending at origin_year,False
+sdi__cv5,model_feature,True,0,trailing window ending at origin_year,False
+sdi__mean10,model_feature,True,0,trailing window ending at origin_year,False
+sdi__std10,model_feature,True,0,trailing window ending at origin_year,False
+sdi__cv10,model_feature,True,0,trailing window ending at origin_year,False
+sdi__log_slope5,model_feature,True,0,trailing window ending at origin_year,False
+sdi__log_slope10,model_feature,True,0,trailing window ending at origin_year,False
+bmi_daly_rate__current_rel_ui_width,model_feature,True,0,origin_year or earlier,False
+bmi_death_rate__current_rel_ui_width,model_feature,True,0,origin_year or earlier,False
+gbd_daly_fraction__current_rel_ui_width,model_feature,True,0,origin_year or earlier,False
+gbd_death_fraction__current_rel_ui_width,model_feature,True,0,origin_year or earlier,False
+overall_daly_rate__current_rel_ui_width,model_feature,True,0,origin_year or earlier,False
+overall_death_rate__current_rel_ui_width,model_feature,True,0,origin_year or earlier,False
+sdi__current_rel_ui_width,model_feature,True,0,origin_year or earlier,False
+derived__current_daly_rate_gap,model_feature,True,0,origin_year or earlier,False
+derived__current_death_rate_gap,model_feature,True,0,origin_year or earlier,False
+derived__daly_fraction_definition_gap_pp,model_feature,True,0,origin_year or earlier,False
+derived__death_fraction_definition_gap_pp,model_feature,True,0,origin_year or earlier,False

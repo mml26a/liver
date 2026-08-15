@@ -1,0 +1,59 @@
+{
+  "checks": {
+    "gru_family_only": true,
+    "gru_metric_rows_216": true,
+    "gru_metrics_finite": true,
+    "gru_oof_finite": true,
+    "gru_oof_rows_5868": true,
+    "gru_oof_unique": true,
+    "gru_selected_configurations_6": true,
+    "gru_selected_oof_exact_replay": true,
+    "gru_three_folds": true,
+    "selected_tabular_mean_spearman_finite": true,
+    "tabular_expected_families": true,
+    "tabular_oof_finite": true,
+    "tabular_oof_rows_58680": true,
+    "tabular_oof_unique": true,
+    "tabular_primary_metrics_finite": true,
+    "tabular_search_rows_2412": true,
+    "tabular_selected_configurations_42": true,
+    "tabular_selected_oof_exact_replay": true,
+    "tabular_three_folds": true,
+    "task_family_blocks_48": true,
+    "undefined_spearman_only_degenerate_elastic_net": true
+  },
+  "counts": {
+    "gru_metric_rows": 216,
+    "gru_oof_rows": 5868,
+    "gru_selected_configurations": 6,
+    "tabular_oof_rows": 58680,
+    "tabular_search_rows": 2412,
+    "tabular_selected_configurations": 42,
+    "task_family_blocks": 48,
+    "undefined_candidate_spearman_rows": 45
+  },
+  "numerical_stability": {
+    "compared_task_families": 12,
+    "maximum_absolute_row_rmsle_change": 0.00027526268400002163,
+    "maximum_absolute_selected_mean_rmsle_change": 6.44270000127456e-08,
+    "selected_configuration_changes": 0,
+    "solver_before": "Ridge(auto), which emitted ill-conditioned-matrix warnings",
+    "solver_formal": "Ridge(lsqr, tol=1e-10, max_iter=10000)"
+  },
+  "selected_oof_replay": {
+    "gru_maximum_absolute_mean_fold_rmsle_difference": 5.997979890537408e-14,
+    "tabular_maximum_absolute_mean_fold_rmsle_difference": 6.286082765427636e-13,
+    "tolerance": 1e-09
+  },
+  "sha256": {
+    "gru_fold_metrics": "8309f9b1d15d4de224f1c21aa3debb3f26dc83e6f13339c23564cb897cf7e475",
+    "gru_oof": "d2849e855277acdfcc155aaa587b456d0596512647ec46e62417e03bd0ece4bd",
+    "gru_selected_configurations": "ee0ad975bfac3e22a3fa2f1664424b25adc1700cb25e4401a6d6b9c058e4dba4",
+    "ridge_solver_sensitivity": "b12e6b84505b34756d6bacf6011697bf8f90a8a729d85dad134422373ad4bc9b",
+    "tabular_fold_metrics": "c172422b659c849affddde1037103ef95edcb3f8b5b27b43dabff232c12f9acd",
+    "tabular_oof": "32e472b9787304922ab641802e9c433c9de4e2c59eb7cdfbff3de751d24aab41",
+    "tabular_selected_configurations": "db0440c1555e6c1c3127e889efd37854830dd0a84f62d81fbdf9f2a0a8bffc33"
+  },
+  "status": "PASS",
+  "undefined_spearman_note": "Spearman correlation is mathematically undefined for 45 deliberately retained, over-regularised ElasticNet candidates with constant predictions. All primary metrics and every selected configuration are finite."
+}

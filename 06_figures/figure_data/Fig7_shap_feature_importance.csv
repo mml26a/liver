@@ -1,0 +1,1075 @@
+outcome,horizon,tree_family,feature,feature_family,mean_absolute_shap_log1p_target,mean_signed_shap_log1p_target,n_explained,within_task_rank
+daly,1,random_forest,bmi_daly_rate__current,BMI-attributable burden history,0.6404872503,0.2869947218,505,1
+daly,1,random_forest,bmi_daly_rate__mean10,BMI-attributable burden history,0.005166276896,-0.0004865982235,505,2
+daly,1,random_forest,bmi_daly_rate__lag1,BMI-attributable burden history,0.004888698668,-0.0005709941116,505,3
+daly,1,random_forest,bmi_daly_rate__mean3,BMI-attributable burden history,0.004413970184,0.0001682098407,505,4
+daly,1,random_forest,bmi_daly_rate__lag5,BMI-attributable burden history,0.00413065194,-0.0004955092833,505,5
+daly,1,random_forest,bmi_daly_rate__mean5,BMI-attributable burden history,0.002926175492,3.493453598e-05,505,6
+daly,1,random_forest,bmi_death_rate__current,BMI-attributable burden history,0.002811575034,0.0003421132765,505,7
+daly,1,random_forest,bmi_daly_rate__lag3,BMI-attributable burden history,0.002785682181,-0.0003360977509,505,8
+daly,1,random_forest,bmi_death_rate__mean3,BMI-attributable burden history,0.001866581127,-4.930648125e-05,505,9
+daly,1,random_forest,bmi_death_rate__mean5,BMI-attributable burden history,0.001711211994,-0.0002353075437,505,10
+daly,1,random_forest,bmi_death_rate__lag1,BMI-attributable burden history,0.00142179536,-0.0002168352791,505,11
+daly,1,random_forest,bmi_death_rate__mean10,BMI-attributable burden history,0.0008829667037,-0.0001633270174,505,12
+daly,1,random_forest,bmi_daly_rate__delta1,BMI-attributable burden history,0.0006909806482,-1.737025408e-05,505,13
+daly,1,random_forest,bmi_death_rate__log_growth1,BMI-attributable burden history,0.0006855234386,-6.724662766e-05,505,14
+daly,1,random_forest,bmi_death_rate__lag3,BMI-attributable burden history,0.0006290561161,-0.0002186176349,505,15
+daly,1,random_forest,bmi_death_rate__delta1,BMI-attributable burden history,0.0006191351946,3.179420007e-05,505,16
+daly,1,random_forest,bmi_daly_rate__log_growth1,BMI-attributable burden history,0.0005277692035,-3.514262445e-05,505,17
+daly,1,random_forest,overall_death_rate__log_growth1,overall liver-cancer burden history,0.0004584471085,1.648692712e-05,505,18
+daly,1,random_forest,overall_daly_rate__log_growth1,overall liver-cancer burden history,0.0004403763763,-1.617901548e-05,505,19
+daly,1,random_forest,overall_daly_rate__mean3,overall liver-cancer burden history,0.0004098813206,-0.0002261375178,505,20
+daly,1,random_forest,overall_daly_rate__delta1,overall liver-cancer burden history,0.0003786819595,8.361741194e-05,505,21
+daly,1,random_forest,bmi_death_rate__lag10,BMI-attributable burden history,0.0003760152832,-0.0002129406254,505,22
+daly,1,random_forest,bmi_daly_rate__lag10,BMI-attributable burden history,0.0003557689229,-0.0001729020833,505,23
+daly,1,random_forest,overall_daly_rate__lag5,overall liver-cancer burden history,0.0003341713543,-0.0001513108932,505,24
+daly,1,random_forest,overall_death_rate__lag5,overall liver-cancer burden history,0.0003192577002,-9.459004138e-05,505,25
+daly,1,random_forest,overall_death_rate__delta1,overall liver-cancer burden history,0.0003149324139,0.0001170623827,505,26
+daly,1,random_forest,bmi_daly_rate__delta3,BMI-attributable burden history,0.0002948021717,8.301445239e-05,505,27
+daly,1,random_forest,overall_death_rate__current,overall liver-cancer burden history,0.0002916883545,-0.0001307199868,505,28
+daly,1,random_forest,derived__current_death_rate_gap,derived definition/gap features,0.000288077129,-0.0001181140377,505,29
+daly,1,random_forest,overall_daly_rate__current,overall liver-cancer burden history,0.0002710848568,-0.0001147024561,505,30
+daly,1,random_forest,derived__daly_fraction_definition_gap_pp,derived definition/gap features,0.0002622508804,-7.806823145e-05,505,31
+daly,1,random_forest,overall_death_rate__std10,overall liver-cancer burden history,0.0002604138651,-4.569008833e-05,505,32
+daly,1,random_forest,derived__current_daly_rate_gap,derived definition/gap features,0.0002524457375,-2.303000609e-05,505,33
+daly,1,random_forest,overall_daly_rate__lag1,overall liver-cancer burden history,0.0002492871251,-0.0001369294494,505,34
+daly,1,random_forest,overall_daly_rate__lag3,overall liver-cancer burden history,0.0002328026414,-0.0001033564202,505,35
+daly,1,random_forest,overall_daly_rate__std3,overall liver-cancer burden history,0.000232749086,9.102405753e-05,505,36
+daly,1,random_forest,overall_daly_rate__mean10,overall liver-cancer burden history,0.0002324199051,-0.0001107445118,505,37
+daly,1,random_forest,overall_daly_rate__delta3,overall liver-cancer burden history,0.0002202060462,7.053892849e-05,505,38
+daly,1,random_forest,bmi_death_rate__delta3,BMI-attributable burden history,0.0002164834899,6.137094559e-05,505,39
+daly,1,random_forest,overall_daly_rate__cv3,overall liver-cancer burden history,0.0002106930525,-8.382430374e-05,505,40
+daly,1,random_forest,bmi_death_rate__lag5,BMI-attributable burden history,0.0002088280995,-5.219669091e-05,505,41
+daly,1,random_forest,bmi_daly_rate__std3,BMI-attributable burden history,0.0001982932214,-3.968774526e-05,505,42
+daly,1,random_forest,overall_death_rate__mean5,overall liver-cancer burden history,0.0001872903517,-7.131572324e-05,505,43
+daly,1,random_forest,overall_daly_rate__log_growth3,overall liver-cancer burden history,0.0001867959586,4.225876601e-05,505,44
+daly,1,random_forest,overall_death_rate__lag1,overall liver-cancer burden history,0.0001824861011,-7.773276912e-05,505,45
+daly,1,random_forest,bmi_daly_rate__log_growth3,BMI-attributable burden history,0.0001793699681,2.546097022e-05,505,46
+daly,1,random_forest,bmi_death_rate__log_growth3,BMI-attributable burden history,0.0001791789111,7.237567443e-06,505,47
+daly,1,random_forest,sdi__log_growth10,sociodemographic index history,0.0001789898569,-8.828765816e-05,505,48
+daly,1,random_forest,gbd_death_fraction__delta10,GBD attributable fraction history,0.0001767059494,6.805385148e-05,505,49
+daly,1,random_forest,bmi_daly_rate__delta10,BMI-attributable burden history,0.0001588678332,4.841202247e-05,505,50
+daly,1,random_forest,gbd_death_fraction__delta1,GBD attributable fraction history,0.0001564477189,7.199183727e-05,505,51
+daly,1,random_forest,overall_death_rate__lag3,overall liver-cancer burden history,0.0001554236733,-6.874789202e-05,505,52
+daly,1,random_forest,sdi__delta1,sociodemographic index history,0.0001542164808,-7.574313881e-05,505,53
+daly,1,random_forest,overall_daly_rate__current_rel_ui_width,overall liver-cancer burden history,0.0001519062532,-6.703607154e-05,505,54
+daly,1,random_forest,overall_death_rate__delta3,overall liver-cancer burden history,0.0001508173694,4.394394365e-05,505,55
+daly,1,random_forest,overall_death_rate__log_growth3,overall liver-cancer burden history,0.000146455437,2.731826079e-05,505,56
+daly,1,random_forest,overall_death_rate__lag10,overall liver-cancer burden history,0.0001435278617,-5.195273198e-05,505,57
+daly,1,random_forest,bmi_daly_rate__delta5,BMI-attributable burden history,0.0001410330919,2.701001134e-05,505,58
+daly,1,random_forest,overall_death_rate__cv3,overall liver-cancer burden history,0.0001398735399,-4.196553045e-05,505,59
+daly,1,random_forest,bmi_death_rate__std3,BMI-attributable burden history,0.0001377372427,3.30270892e-05,505,60
+daly,1,random_forest,bmi_death_rate__std10,BMI-attributable burden history,0.000136897643,4.716085546e-05,505,61
+daly,1,random_forest,overall_death_rate__current_rel_ui_width,overall liver-cancer burden history,0.0001368529796,-8.580166491e-06,505,62
+daly,1,random_forest,overall_daly_rate__lag10,overall liver-cancer burden history,0.0001350529907,-5.496582596e-05,505,63
+daly,1,random_forest,gbd_death_fraction__std10,GBD attributable fraction history,0.0001332371292,3.733798815e-05,505,64
+daly,1,random_forest,bmi_daly_rate__current_rel_ui_width,BMI-attributable burden history,0.0001330724506,-7.372425421e-05,505,65
+daly,1,random_forest,bmi_daly_rate__log_slope5,BMI-attributable burden history,0.0001329034775,2.464794989e-05,505,66
+daly,1,random_forest,bmi_death_rate__delta10,BMI-attributable burden history,0.0001320472516,4.757050761e-05,505,67
+daly,1,random_forest,overall_death_rate__std3,overall liver-cancer burden history,0.0001299806463,3.666212162e-05,505,68
+daly,1,random_forest,overall_death_rate__log_slope5,overall liver-cancer burden history,0.0001271869317,3.896797512e-05,505,69
+daly,1,random_forest,bmi_death_rate__current_rel_ui_width,BMI-attributable burden history,0.0001232774557,-7.316506778e-05,505,70
+daly,1,random_forest,overall_daly_rate__log_slope5,overall liver-cancer burden history,0.0001167547545,3.712549123e-05,505,71
+daly,1,random_forest,overall_death_rate__mean3,overall liver-cancer burden history,0.000115827285,-5.082592684e-05,505,72
+daly,1,random_forest,derived__death_fraction_definition_gap_pp,derived definition/gap features,0.0001152457201,7.497391107e-06,505,73
+daly,1,random_forest,bmi_daly_rate__std5,BMI-attributable burden history,0.0001123765545,1.544049884e-05,505,74
+daly,1,random_forest,bmi_daly_rate__cv10,BMI-attributable burden history,0.0001102476503,1.157608201e-05,505,75
+daly,1,random_forest,overall_death_rate__mean10,overall liver-cancer burden history,0.0001096046418,-1.29408422e-05,505,76
+daly,1,random_forest,bmi_death_rate__cv5,BMI-attributable burden history,0.000109471016,4.617321692e-06,505,77
+daly,1,random_forest,bmi_death_rate__cv3,BMI-attributable burden history,0.0001081659848,2.305313876e-05,505,78
+daly,1,random_forest,gbd_daly_fraction__delta1,GBD attributable fraction history,0.0001060648998,2.34273763e-05,505,79
+daly,1,random_forest,bmi_death_rate__log_slope5,BMI-attributable burden history,0.0001043819553,1.296248695e-05,505,80
+daly,1,random_forest,overall_daly_rate__log_slope10,overall liver-cancer burden history,0.0001035503114,3.862862242e-05,505,81
+daly,1,random_forest,bmi_daly_rate__cv5,BMI-attributable burden history,0.0001022251753,1.728799586e-06,505,82
+daly,1,random_forest,bmi_death_rate__log_growth10,BMI-attributable burden history,0.0001020548967,3.887195421e-05,505,83
+daly,1,random_forest,overall_daly_rate__mean5,overall liver-cancer burden history,0.0001013734325,-4.29357043e-05,505,84
+daly,1,random_forest,overall_death_rate__cv10,overall liver-cancer burden history,9.936459961e-05,-3.471132713e-05,505,85
+daly,1,random_forest,bmi_death_rate__delta5,BMI-attributable burden history,9.858802907e-05,2.971325417e-05,505,86
+daly,1,random_forest,bmi_daly_rate__cv3,BMI-attributable burden history,9.576032755e-05,3.582765883e-05,505,87
+daly,1,random_forest,bmi_death_rate__cv10,BMI-attributable burden history,9.398515497e-05,9.34000836e-06,505,88
+daly,1,random_forest,gbd_daly_fraction__log_growth1,GBD attributable fraction history,8.999242369e-05,-5.107684718e-06,505,89
+daly,1,random_forest,bmi_daly_rate__std10,BMI-attributable burden history,8.7048468e-05,2.541465014e-05,505,90
+daly,1,random_forest,gbd_daly_fraction__lag10,GBD attributable fraction history,8.36356207e-05,3.024103082e-05,505,91
+daly,1,random_forest,overall_daly_rate__cv10,overall liver-cancer burden history,8.326298121e-05,2.469535755e-05,505,92
+daly,1,random_forest,overall_daly_rate__std10,overall liver-cancer burden history,8.158165573e-05,1.640739949e-05,505,93
+daly,1,random_forest,overall_daly_rate__std5,overall liver-cancer burden history,8.089829379e-05,1.99126567e-05,505,94
+daly,1,random_forest,gbd_daly_fraction__log_growth5,GBD attributable fraction history,8.075250736e-05,3.541413672e-06,505,95
+daly,1,random_forest,gbd_death_fraction__delta5,GBD attributable fraction history,7.932911061e-05,2.891254766e-05,505,96
+daly,1,random_forest,overall_daly_rate__cv5,overall liver-cancer burden history,7.4764935e-05,1.34973195e-05,505,97
+daly,1,random_forest,overall_death_rate__cv5,overall liver-cancer burden history,7.410696651e-05,-1.723121777e-06,505,98
+daly,1,random_forest,bmi_death_rate__std5,BMI-attributable burden history,7.4017505e-05,1.662539004e-05,505,99
+daly,1,random_forest,overall_death_rate__log_slope10,overall liver-cancer burden history,7.231507624e-05,1.054804881e-05,505,100
+daly,1,random_forest,gbd_death_fraction__log_growth10,GBD attributable fraction history,7.163866536e-05,1.306399416e-05,505,101
+daly,1,random_forest,sdi__delta10,sociodemographic index history,7.03900126e-05,-2.694257768e-05,505,102
+daly,1,random_forest,bmi_death_rate__log_slope10,BMI-attributable burden history,6.992271959e-05,7.80093853e-06,505,103
+daly,1,random_forest,gbd_death_fraction__current_rel_ui_width,GBD attributable fraction history,6.980288539e-05,6.809474574e-06,505,104
+daly,1,random_forest,overall_daly_rate__log_growth5,overall liver-cancer burden history,6.932373873e-05,2.486077172e-05,505,105
+daly,1,random_forest,sdi__lag10,sociodemographic index history,6.889183789e-05,4.139610095e-09,505,106
+daly,1,random_forest,gbd_daly_fraction__delta5,GBD attributable fraction history,6.884045191e-05,3.772211014e-05,505,107
+daly,1,random_forest,gbd_death_fraction__std5,GBD attributable fraction history,6.848876209e-05,1.089942706e-05,505,108
+daly,1,random_forest,sdi__std10,sociodemographic index history,6.811403863e-05,-3.973370446e-06,505,109
+daly,1,random_forest,gbd_daly_fraction__current_rel_ui_width,GBD attributable fraction history,6.728135642e-05,1.468128492e-05,505,110
+daly,1,random_forest,gbd_death_fraction__delta3,GBD attributable fraction history,6.695167356e-05,3.243732278e-05,505,111
+daly,1,random_forest,bmi_death_rate__log_growth5,BMI-attributable burden history,6.678188533e-05,1.007250071e-05,505,112
+daly,1,random_forest,overall_death_rate__std5,overall liver-cancer burden history,6.652783578e-05,9.291667735e-07,505,113
+daly,1,random_forest,bmi_daly_rate__log_growth10,BMI-attributable burden history,6.583921164e-05,-1.458530068e-06,505,114
+daly,1,random_forest,overall_death_rate__log_growth5,overall liver-cancer burden history,6.547415894e-05,2.746647317e-05,505,115
+daly,1,random_forest,bmi_daly_rate__log_growth5,BMI-attributable burden history,6.464107965e-05,4.942461424e-06,505,116
+daly,1,random_forest,overall_daly_rate__delta5,overall liver-cancer burden history,6.458314295e-05,2.754522901e-05,505,117
+daly,1,random_forest,gbd_death_fraction__log_slope5,GBD attributable fraction history,6.396083074e-05,1.697925688e-05,505,118
+daly,1,random_forest,bmi_daly_rate__log_slope10,BMI-attributable burden history,6.342620383e-05,1.079878767e-05,505,119
+daly,1,random_forest,gbd_death_fraction__std3,GBD attributable fraction history,6.212599021e-05,2.229611389e-05,505,120
+daly,1,random_forest,gbd_daly_fraction__std10,GBD attributable fraction history,6.211928513e-05,1.099791704e-05,505,121
+daly,1,random_forest,gbd_death_fraction__lag10,GBD attributable fraction history,6.057293908e-05,5.345964718e-06,505,122
+daly,1,random_forest,gbd_death_fraction__log_growth1,GBD attributable fraction history,6.031451507e-05,9.880785679e-06,505,123
+daly,1,random_forest,gbd_death_fraction__log_growth5,GBD attributable fraction history,5.95553713e-05,5.939589227e-06,505,124
+daly,1,random_forest,gbd_daly_fraction__log_slope10,GBD attributable fraction history,5.837072068e-05,5.835301556e-09,505,125
+daly,1,random_forest,overall_death_rate__delta5,overall liver-cancer burden history,5.822003137e-05,7.391777318e-06,505,126
+daly,1,random_forest,gbd_death_fraction__mean10,GBD attributable fraction history,5.605193088e-05,2.633178583e-06,505,127
+daly,1,random_forest,gbd_daly_fraction__cv3,GBD attributable fraction history,5.538260827e-05,-1.588170959e-05,505,128
+daly,1,random_forest,sdi__cv10,sociodemographic index history,5.528468535e-05,-1.295078682e-05,505,129
+daly,1,random_forest,overall_daly_rate__delta10,overall liver-cancer burden history,5.460756374e-05,2.534345807e-05,505,130
+daly,1,random_forest,overall_death_rate__delta10,overall liver-cancer burden history,5.446965519e-05,1.383774456e-05,505,131
+daly,1,random_forest,gbd_death_fraction__lag5,GBD attributable fraction history,5.301194951e-05,-1.055079082e-05,505,132
+daly,1,random_forest,gbd_daly_fraction__cv10,GBD attributable fraction history,5.293403188e-05,-2.21804013e-06,505,133
+daly,1,random_forest,gbd_daly_fraction__lag1,GBD attributable fraction history,4.955712212e-05,7.101416214e-06,505,134
+daly,1,random_forest,gbd_daly_fraction__std5,GBD attributable fraction history,4.933056456e-05,1.253921662e-05,505,135
+daly,1,random_forest,sdi__log_growth1,sociodemographic index history,4.866777517e-05,-4.858174538e-06,505,136
+daly,1,random_forest,gbd_death_fraction__cv3,GBD attributable fraction history,4.731609208e-05,1.020279019e-05,505,137
+daly,1,random_forest,gbd_daly_fraction__delta10,GBD attributable fraction history,4.681115568e-05,1.014590951e-05,505,138
+daly,1,random_forest,sdi__delta5,sociodemographic index history,4.576354015e-05,-6.059145726e-06,505,139
+daly,1,random_forest,gbd_death_fraction__mean5,GBD attributable fraction history,4.565742612e-05,-1.70420708e-06,505,140
+daly,1,random_forest,gbd_death_fraction__lag3,GBD attributable fraction history,4.549134424e-05,-8.365598234e-06,505,141
+daly,1,random_forest,gbd_daly_fraction__lag3,GBD attributable fraction history,4.448717864e-05,-3.921658715e-06,505,142
+daly,1,random_forest,gbd_death_fraction__log_growth3,GBD attributable fraction history,4.428394631e-05,1.719405042e-05,505,143
+daly,1,random_forest,gbd_daly_fraction__delta3,GBD attributable fraction history,4.302638e-05,1.202394051e-05,505,144
+daly,1,random_forest,gbd_daly_fraction__lag5,GBD attributable fraction history,4.291152522e-05,7.215575036e-06,505,145
+daly,1,random_forest,sdi__lag5,sociodemographic index history,4.194070518e-05,4.340853521e-06,505,146
+daly,1,random_forest,gbd_death_fraction__lag1,GBD attributable fraction history,4.175721647e-05,-6.041795255e-06,505,147
+daly,1,random_forest,sdi__lag3,sociodemographic index history,4.15572217e-05,-3.661513656e-06,505,148
+daly,1,random_forest,gbd_daly_fraction__cv5,GBD attributable fraction history,4.127700165e-05,7.99381876e-06,505,149
+daly,1,random_forest,sdi__log_growth5,sociodemographic index history,4.122545574e-05,-9.276149854e-06,505,150
+daly,1,random_forest,sdi__mean5,sociodemographic index history,4.08097064e-05,-2.895646192e-06,505,151
+daly,1,random_forest,gbd_daly_fraction__log_growth10,GBD attributable fraction history,4.050745267e-05,-2.973240478e-07,505,152
+daly,1,random_forest,gbd_daly_fraction__current,GBD attributable fraction history,4.045768255e-05,1.674555285e-05,505,153
+daly,1,random_forest,sdi__std3,sociodemographic index history,4.021371827e-05,-7.317487963e-06,505,154
+daly,1,random_forest,sdi__mean3,sociodemographic index history,3.928910672e-05,5.629391001e-06,505,155
+daly,1,random_forest,gbd_daly_fraction__std3,GBD attributable fraction history,3.84758001e-05,8.413327268e-06,505,156
+daly,1,random_forest,gbd_death_fraction__mean3,GBD attributable fraction history,3.802007736e-05,-2.342787191e-06,505,157
+daly,1,random_forest,gbd_death_fraction__cv10,GBD attributable fraction history,3.788875073e-05,1.201105806e-05,505,158
+daly,1,random_forest,sdi__current,sociodemographic index history,3.786179004e-05,1.739830722e-05,505,159
+daly,1,random_forest,sdi__std5,sociodemographic index history,3.78510796e-05,-6.015459243e-06,505,160
+daly,1,random_forest,overall_daly_rate__log_growth10,overall liver-cancer burden history,3.771276378e-05,7.672910392e-06,505,161
+daly,1,random_forest,overall_death_rate__log_growth10,overall liver-cancer burden history,3.648254995e-05,4.08358388e-06,505,162
+daly,1,random_forest,gbd_daly_fraction__mean5,GBD attributable fraction history,3.644476214e-05,3.795235664e-07,505,163
+daly,1,random_forest,gbd_daly_fraction__mean3,GBD attributable fraction history,3.584689399e-05,6.480638057e-06,505,164
+daly,1,random_forest,gbd_daly_fraction__mean10,GBD attributable fraction history,3.514678672e-05,1.465285699e-05,505,165
+daly,1,random_forest,gbd_death_fraction__current,GBD attributable fraction history,3.496694946e-05,5.381078334e-06,505,166
+daly,1,random_forest,gbd_daly_fraction__log_slope5,GBD attributable fraction history,3.423016603e-05,1.112125081e-05,505,167
+daly,1,random_forest,sdi__delta3,sociodemographic index history,3.403852359e-05,-9.129598531e-06,505,168
+daly,1,random_forest,sdi__log_slope10,sociodemographic index history,3.397296738e-05,-1.172775845e-05,505,169
+daly,1,random_forest,sdi__lag1,sociodemographic index history,3.329979218e-05,1.374312653e-05,505,170
+daly,1,random_forest,gbd_daly_fraction__log_growth3,GBD attributable fraction history,3.319007613e-05,-6.255114503e-06,505,171
+daly,1,random_forest,sdi__mean10,sociodemographic index history,3.267789896e-05,-4.641745969e-06,505,172
+daly,1,random_forest,gbd_death_fraction__cv5,GBD attributable fraction history,3.2616818e-05,1.274406186e-05,505,173
+daly,1,random_forest,sdi__cv3,sociodemographic index history,3.250496234e-05,6.888943175e-06,505,174
+daly,1,random_forest,gbd_death_fraction__log_slope10,GBD attributable fraction history,3.072215072e-05,-4.977778388e-07,505,175
+daly,1,random_forest,sdi__cv5,sociodemographic index history,2.531181652e-05,-6.670084807e-06,505,176
+daly,1,random_forest,sdi__log_growth3,sociodemographic index history,2.285145719e-05,-5.554409069e-06,505,177
+daly,1,random_forest,sdi__log_slope5,sociodemographic index history,2.266385949e-05,-1.813092246e-06,505,178
+daly,1,random_forest,sdi__current_rel_ui_width,sociodemographic index history,0,0,505,179
+daly,3,extra_trees,bmi_daly_rate__current,BMI-attributable burden history,0.07080742678,0.02422506642,505,1
+daly,3,extra_trees,bmi_daly_rate__mean3,BMI-attributable burden history,0.05801345634,0.01908014847,505,2
+daly,3,extra_trees,bmi_daly_rate__lag1,BMI-attributable burden history,0.05044957996,0.01742937255,505,3
+daly,3,extra_trees,bmi_death_rate__current,BMI-attributable burden history,0.04848457184,0.01824146776,505,4
+daly,3,extra_trees,bmi_daly_rate__mean5,BMI-attributable burden history,0.04837525928,0.01634249841,505,5
+daly,3,extra_trees,bmi_death_rate__mean3,BMI-attributable burden history,0.04292320892,0.0158210965,505,6
+daly,3,extra_trees,bmi_death_rate__lag1,BMI-attributable burden history,0.03713915394,0.01423979245,505,7
+daly,3,extra_trees,bmi_death_rate__mean5,BMI-attributable burden history,0.03546715667,0.01274593256,505,8
+daly,3,extra_trees,bmi_death_rate__lag3,BMI-attributable burden history,0.03189343042,0.0106491101,505,9
+daly,3,extra_trees,bmi_daly_rate__lag5,BMI-attributable burden history,0.03175232498,0.0093127516,505,10
+daly,3,extra_trees,bmi_daly_rate__lag3,BMI-attributable burden history,0.03095142202,0.009274295345,505,11
+daly,3,extra_trees,bmi_daly_rate__mean10,BMI-attributable burden history,0.03003112971,0.009107954166,505,12
+daly,3,extra_trees,bmi_death_rate__mean10,BMI-attributable burden history,0.02474184691,0.007973318573,505,13
+daly,3,extra_trees,bmi_daly_rate__lag10,BMI-attributable burden history,0.02206431888,0.004429385674,505,14
+daly,3,extra_trees,bmi_death_rate__lag5,BMI-attributable burden history,0.02174155039,0.008009149622,505,15
+daly,3,extra_trees,bmi_death_rate__lag10,BMI-attributable burden history,0.01171304583,0.002956779411,505,16
+daly,3,extra_trees,bmi_daly_rate__std10,BMI-attributable burden history,0.002883306263,0.0004353923008,505,17
+daly,3,extra_trees,bmi_death_rate__std10,BMI-attributable burden history,0.002414180169,0.0003616916072,505,18
+daly,3,extra_trees,bmi_daly_rate__delta10,BMI-attributable burden history,0.002324303346,0.0002941008647,505,19
+daly,3,extra_trees,bmi_daly_rate__delta1,BMI-attributable burden history,0.001950880277,0.0002446670854,505,20
+daly,3,extra_trees,bmi_daly_rate__delta3,BMI-attributable burden history,0.001853430542,0.0001202416762,505,21
+daly,3,extra_trees,bmi_daly_rate__delta5,BMI-attributable burden history,0.001835896714,0.0001443582971,505,22
+daly,3,extra_trees,overall_death_rate__mean3,overall liver-cancer burden history,0.001798225824,0.0002649248179,505,23
+daly,3,extra_trees,bmi_daly_rate__std5,BMI-attributable burden history,0.001676698076,0.0001124788992,505,24
+daly,3,extra_trees,overall_death_rate__lag5,overall liver-cancer burden history,0.001675154131,0.0004889871856,505,25
+daly,3,extra_trees,bmi_daly_rate__log_growth1,BMI-attributable burden history,0.001657310188,0.0002851147329,505,26
+daly,3,extra_trees,bmi_death_rate__delta1,BMI-attributable burden history,0.001631415719,0.0002637102067,505,27
+daly,3,extra_trees,overall_death_rate__mean10,overall liver-cancer burden history,0.001549627881,0.0001138187656,505,28
+daly,3,extra_trees,bmi_death_rate__delta3,BMI-attributable burden history,0.001432389349,0.000102340142,505,29
+daly,3,extra_trees,bmi_death_rate__std5,BMI-attributable burden history,0.001411496881,0.0001405996706,505,30
+daly,3,extra_trees,bmi_death_rate__delta5,BMI-attributable burden history,0.00139058071,0.000133665085,505,31
+daly,3,extra_trees,bmi_death_rate__delta10,BMI-attributable burden history,0.00133796506,0.0003425667409,505,32
+daly,3,extra_trees,bmi_death_rate__log_growth1,BMI-attributable burden history,0.001332713221,0.0001631263725,505,33
+daly,3,extra_trees,bmi_daly_rate__log_growth3,BMI-attributable burden history,0.001245106176,0.0001771372999,505,34
+daly,3,extra_trees,bmi_death_rate__log_growth3,BMI-attributable burden history,0.001062254209,0.0001052106368,505,35
+daly,3,extra_trees,overall_daly_rate__current,overall liver-cancer burden history,0.001032601281,0.0002996038625,505,36
+daly,3,extra_trees,bmi_daly_rate__std3,BMI-attributable burden history,0.0009628656369,0.0001246530059,505,37
+daly,3,extra_trees,bmi_daly_rate__log_growth5,BMI-attributable burden history,0.0009199196455,5.343065081e-05,505,38
+daly,3,extra_trees,overall_daly_rate__mean5,overall liver-cancer burden history,0.0009123816297,4.301623681e-05,505,39
+daly,3,extra_trees,overall_death_rate__current,overall liver-cancer burden history,0.0008409869286,6.889982324e-05,505,40
+daly,3,extra_trees,overall_death_rate__lag3,overall liver-cancer burden history,0.0008354258973,-6.859131723e-05,505,41
+daly,3,extra_trees,overall_death_rate__mean5,overall liver-cancer burden history,0.0008129644069,0.0001632876294,505,42
+daly,3,extra_trees,overall_daly_rate__log_growth1,overall liver-cancer burden history,0.0007736883378,0.0001186998545,505,43
+daly,3,extra_trees,bmi_daly_rate__log_slope5,BMI-attributable burden history,0.0007727743938,0.0001084187828,505,44
+daly,3,extra_trees,bmi_death_rate__log_growth5,BMI-attributable burden history,0.0007594376076,9.855951886e-05,505,45
+daly,3,extra_trees,overall_death_rate__current_rel_ui_width,overall liver-cancer burden history,0.0007467578445,-5.915595874e-07,505,46
+daly,3,extra_trees,derived__current_death_rate_gap,derived definition/gap features,0.000728131783,2.68243923e-05,505,47
+daly,3,extra_trees,overall_death_rate__lag10,overall liver-cancer burden history,0.0007071852637,6.386096793e-05,505,48
+daly,3,extra_trees,bmi_death_rate__log_slope5,BMI-attributable burden history,0.0006462845668,3.953050345e-05,505,49
+daly,3,extra_trees,overall_death_rate__log_growth1,overall liver-cancer burden history,0.0006416631306,8.535615628e-05,505,50
+daly,3,extra_trees,bmi_daly_rate__log_growth10,BMI-attributable burden history,0.0006135519053,7.449396429e-05,505,51
+daly,3,extra_trees,overall_daly_rate__log_growth3,overall liver-cancer burden history,0.0005792812414,0.0001321151355,505,52
+daly,3,extra_trees,overall_daly_rate__mean3,overall liver-cancer burden history,0.0005721149975,4.763099322e-05,505,53
+daly,3,extra_trees,overall_daly_rate__lag1,overall liver-cancer burden history,0.0005621834311,8.753171253e-05,505,54
+daly,3,extra_trees,overall_death_rate__log_growth3,overall liver-cancer burden history,0.00055574595,0.0001557878557,505,55
+daly,3,extra_trees,overall_death_rate__delta1,overall liver-cancer burden history,0.0005553962188,7.23344783e-05,505,56
+daly,3,extra_trees,overall_daly_rate__log_slope5,overall liver-cancer burden history,0.000533290278,0.0001648481289,505,57
+daly,3,extra_trees,overall_daly_rate__delta1,overall liver-cancer burden history,0.0005272371126,7.43442188e-05,505,58
+daly,3,extra_trees,bmi_death_rate__log_growth10,BMI-attributable burden history,0.0005233417434,0.0001028077912,505,59
+daly,3,extra_trees,gbd_daly_fraction__lag3,GBD attributable fraction history,0.0005185252933,0.0002411315311,505,60
+daly,3,extra_trees,overall_daly_rate__lag3,overall liver-cancer burden history,0.0005068411641,1.385376942e-05,505,61
+daly,3,extra_trees,overall_daly_rate__current_rel_ui_width,overall liver-cancer burden history,0.0004684274063,4.378637591e-05,505,62
+daly,3,extra_trees,bmi_daly_rate__log_slope10,BMI-attributable burden history,0.0004494802263,3.036896918e-05,505,63
+daly,3,extra_trees,overall_daly_rate__log_growth5,overall liver-cancer burden history,0.0004269826524,0.000110572969,505,64
+daly,3,extra_trees,overall_death_rate__delta3,overall liver-cancer burden history,0.0004223000215,5.896096221e-05,505,65
+daly,3,extra_trees,sdi__cv10,sociodemographic index history,0.0004123269395,-4.075247621e-05,505,66
+daly,3,extra_trees,gbd_death_fraction__mean3,GBD attributable fraction history,0.0003969650275,0.0002535499862,505,67
+daly,3,extra_trees,overall_death_rate__lag1,overall liver-cancer burden history,0.0003874305865,2.865993488e-06,505,68
+daly,3,extra_trees,gbd_death_fraction__delta10,GBD attributable fraction history,0.0003865387793,0.0001368234805,505,69
+daly,3,extra_trees,bmi_death_rate__log_slope10,BMI-attributable burden history,0.0003852274109,4.425520732e-05,505,70
+daly,3,extra_trees,gbd_daly_fraction__lag1,GBD attributable fraction history,0.0003810023042,0.000116478117,505,71
+daly,3,extra_trees,derived__current_daly_rate_gap,derived definition/gap features,0.0003798103213,4.518305309e-05,505,72
+daly,3,extra_trees,sdi__mean3,sociodemographic index history,0.0003794433457,-7.281578168e-05,505,73
+daly,3,extra_trees,overall_daly_rate__mean10,overall liver-cancer burden history,0.0003753002159,-0.000149722937,505,74
+daly,3,extra_trees,bmi_daly_rate__cv10,BMI-attributable burden history,0.0003731837736,-5.471032488e-05,505,75
+daly,3,extra_trees,bmi_death_rate__std3,BMI-attributable burden history,0.0003724450959,0.0001089703304,505,76
+daly,3,extra_trees,sdi__lag1,sociodemographic index history,0.0003675798057,-7.317083718e-05,505,77
+daly,3,extra_trees,sdi__current,sociodemographic index history,0.0003597058671,-1.634752552e-05,505,78
+daly,3,extra_trees,overall_death_rate__log_slope5,overall liver-cancer burden history,0.0003554177207,0.0001053695519,505,79
+daly,3,extra_trees,sdi__lag10,sociodemographic index history,0.000349304093,-4.745897154e-05,505,80
+daly,3,extra_trees,overall_daly_rate__delta3,overall liver-cancer burden history,0.0003386121642,5.736235403e-05,505,81
+daly,3,extra_trees,sdi__lag3,sociodemographic index history,0.0003368775257,-5.484899497e-05,505,82
+daly,3,extra_trees,sdi__lag5,sociodemographic index history,0.0003356292054,-3.432623287e-05,505,83
+daly,3,extra_trees,gbd_death_fraction__lag10,GBD attributable fraction history,0.0003322651197,0.0002208474942,505,84
+daly,3,extra_trees,gbd_daly_fraction__lag5,GBD attributable fraction history,0.000324872255,0.0001543754294,505,85
+daly,3,extra_trees,gbd_death_fraction__std10,GBD attributable fraction history,0.0003209056561,6.155934223e-05,505,86
+daly,3,extra_trees,gbd_death_fraction__lag3,GBD attributable fraction history,0.0003174413616,0.0002236857095,505,87
+daly,3,extra_trees,overall_daly_rate__log_growth10,overall liver-cancer burden history,0.0003173101752,3.881911643e-05,505,88
+daly,3,extra_trees,overall_death_rate__log_growth10,overall liver-cancer burden history,0.0003098779245,5.107457966e-06,505,89
+daly,3,extra_trees,derived__daly_fraction_definition_gap_pp,derived definition/gap features,0.0003096700987,0.0001262139453,505,90
+daly,3,extra_trees,gbd_death_fraction__lag1,GBD attributable fraction history,0.0003068684637,0.0002009858981,505,91
+daly,3,extra_trees,gbd_daly_fraction__delta10,GBD attributable fraction history,0.0003020401246,7.234413939e-05,505,92
+daly,3,extra_trees,gbd_death_fraction__delta5,GBD attributable fraction history,0.0003006467864,0.000144043346,505,93
+daly,3,extra_trees,gbd_daly_fraction__delta5,GBD attributable fraction history,0.0002996440328,0.0001152801248,505,94
+daly,3,extra_trees,sdi__mean10,sociodemographic index history,0.0002970309186,-3.175653448e-05,505,95
+daly,3,extra_trees,overall_daly_rate__lag5,overall liver-cancer burden history,0.0002960057794,-9.229741972e-05,505,96
+daly,3,extra_trees,bmi_daly_rate__current_rel_ui_width,BMI-attributable burden history,0.0002950712009,-4.336346749e-05,505,97
+daly,3,extra_trees,gbd_death_fraction__log_growth10,GBD attributable fraction history,0.0002932502311,-5.989229278e-06,505,98
+daly,3,extra_trees,sdi__mean5,sociodemographic index history,0.0002929357947,-9.635675306e-06,505,99
+daly,3,extra_trees,gbd_death_fraction__cv5,GBD attributable fraction history,0.0002914826396,-4.896297485e-06,505,100
+daly,3,extra_trees,overall_death_rate__log_growth5,overall liver-cancer burden history,0.0002889758482,6.760095138e-05,505,101
+daly,3,extra_trees,overall_death_rate__cv3,overall liver-cancer burden history,0.0002862460324,6.511481903e-05,505,102
+daly,3,extra_trees,bmi_daly_rate__cv5,BMI-attributable burden history,0.0002855451789,-5.626226865e-05,505,103
+daly,3,extra_trees,sdi__log_slope10,sociodemographic index history,0.0002829272383,-6.524203169e-06,505,104
+daly,3,extra_trees,sdi__log_growth5,sociodemographic index history,0.0002824660415,-1.601873585e-05,505,105
+daly,3,extra_trees,gbd_daly_fraction__log_growth1,GBD attributable fraction history,0.000282171282,-2.789822505e-06,505,106
+daly,3,extra_trees,gbd_daly_fraction__log_growth10,GBD attributable fraction history,0.0002818496624,-1.19688994e-05,505,107
+daly,3,extra_trees,bmi_death_rate__cv10,BMI-attributable burden history,0.0002801619395,-5.650409899e-05,505,108
+daly,3,extra_trees,gbd_daly_fraction__std10,GBD attributable fraction history,0.0002763766959,4.411713223e-05,505,109
+daly,3,extra_trees,overall_daly_rate__delta10,overall liver-cancer burden history,0.0002745334886,8.577240842e-05,505,110
+daly,3,extra_trees,gbd_death_fraction__mean5,GBD attributable fraction history,0.0002737799038,0.000164154707,505,111
+daly,3,extra_trees,overall_death_rate__log_slope10,overall liver-cancer burden history,0.0002703330194,-4.160850184e-05,505,112
+daly,3,extra_trees,gbd_death_fraction__std5,GBD attributable fraction history,0.0002667904661,0.0001151812721,505,113
+daly,3,extra_trees,gbd_daly_fraction__mean3,GBD attributable fraction history,0.0002641078961,0.0001423784695,505,114
+daly,3,extra_trees,sdi__delta10,sociodemographic index history,0.0002616566177,5.317216661e-05,505,115
+daly,3,extra_trees,derived__death_fraction_definition_gap_pp,derived definition/gap features,0.0002615985684,4.734829605e-05,505,116
+daly,3,extra_trees,overall_daly_rate__delta5,overall liver-cancer burden history,0.0002590770447,2.484323375e-05,505,117
+daly,3,extra_trees,gbd_death_fraction__delta3,GBD attributable fraction history,0.0002581594563,0.0001548068957,505,118
+daly,3,extra_trees,sdi__log_growth10,sociodemographic index history,0.0002555687734,7.426041993e-06,505,119
+daly,3,extra_trees,gbd_daly_fraction__log_growth3,GBD attributable fraction history,0.0002532505049,-6.111915116e-06,505,120
+daly,3,extra_trees,bmi_death_rate__cv3,BMI-attributable burden history,0.0002519195227,-2.689319621e-05,505,121
+daly,3,extra_trees,gbd_daly_fraction__delta3,GBD attributable fraction history,0.0002508336047,0.0001152557265,505,122
+daly,3,extra_trees,bmi_death_rate__cv5,BMI-attributable burden history,0.0002480454933,-8.096225721e-05,505,123
+daly,3,extra_trees,gbd_death_fraction__log_growth3,GBD attributable fraction history,0.0002447777199,3.130772167e-05,505,124
+daly,3,extra_trees,gbd_death_fraction__log_growth5,GBD attributable fraction history,0.0002437446492,4.152791986e-05,505,125
+daly,3,extra_trees,bmi_daly_rate__cv3,BMI-attributable burden history,0.0002405370903,-1.331181345e-05,505,126
+daly,3,extra_trees,overall_death_rate__delta10,overall liver-cancer burden history,0.0002387882658,2.940187798e-05,505,127
+daly,3,extra_trees,gbd_daly_fraction__std5,GBD attributable fraction history,0.000238582132,6.213451726e-05,505,128
+daly,3,extra_trees,gbd_daly_fraction__delta1,GBD attributable fraction history,0.0002374795027,0.0001167604176,505,129
+daly,3,extra_trees,bmi_death_rate__current_rel_ui_width,BMI-attributable burden history,0.000235487029,-2.485860106e-05,505,130
+daly,3,extra_trees,gbd_daly_fraction__log_growth5,GBD attributable fraction history,0.0002346583372,7.769237754e-06,505,131
+daly,3,extra_trees,gbd_daly_fraction__current_rel_ui_width,GBD attributable fraction history,0.000233913585,0.0001003712936,505,132
+daly,3,extra_trees,sdi__cv5,sociodemographic index history,0.0002314813447,2.31012772e-06,505,133
+daly,3,extra_trees,gbd_death_fraction__log_slope5,GBD attributable fraction history,0.0002294503618,7.094950615e-05,505,134
+daly,3,extra_trees,overall_death_rate__delta5,overall liver-cancer burden history,0.0002294032891,4.043403056e-05,505,135
+daly,3,extra_trees,gbd_death_fraction__cv10,GBD attributable fraction history,0.0002292637407,4.457155211e-05,505,136
+daly,3,extra_trees,gbd_death_fraction__cv3,GBD attributable fraction history,0.0002278932626,2.933181408e-06,505,137
+daly,3,extra_trees,gbd_death_fraction__current,GBD attributable fraction history,0.0002244107528,0.0001595257009,505,138
+daly,3,extra_trees,gbd_death_fraction__current_rel_ui_width,GBD attributable fraction history,0.0002241160896,6.911230451e-05,505,139
+daly,3,extra_trees,gbd_daly_fraction__mean5,GBD attributable fraction history,0.0002229849413,0.0001013206874,505,140
+daly,3,extra_trees,gbd_daly_fraction__cv5,GBD attributable fraction history,0.000222668967,1.647329047e-05,505,141
+daly,3,extra_trees,overall_daly_rate__cv3,overall liver-cancer burden history,0.0002224700075,8.251942462e-05,505,142
+daly,3,extra_trees,gbd_death_fraction__std3,GBD attributable fraction history,0.0002210194041,0.0001052963959,505,143
+daly,3,extra_trees,overall_daly_rate__log_slope10,overall liver-cancer burden history,0.0002208380971,2.281239741e-05,505,144
+daly,3,extra_trees,gbd_death_fraction__log_slope10,GBD attributable fraction history,0.0002196126902,2.218614554e-05,505,145
+daly,3,extra_trees,gbd_daly_fraction__cv3,GBD attributable fraction history,0.0002174334185,-7.274654783e-06,505,146
+daly,3,extra_trees,overall_daly_rate__cv5,overall liver-cancer burden history,0.0002113984265,6.337573469e-05,505,147
+daly,3,extra_trees,gbd_death_fraction__mean10,GBD attributable fraction history,0.0002050539928,9.539099866e-05,505,148
+daly,3,extra_trees,gbd_daly_fraction__log_slope10,GBD attributable fraction history,0.000204947529,4.016062242e-06,505,149
+daly,3,extra_trees,overall_daly_rate__cv10,overall liver-cancer burden history,0.0002042024721,2.718601765e-05,505,150
+daly,3,extra_trees,sdi__log_slope5,sociodemographic index history,0.0001965963594,2.099509124e-05,505,151
+daly,3,extra_trees,gbd_death_fraction__delta1,GBD attributable fraction history,0.0001944980509,9.205277546e-05,505,152
+daly,3,extra_trees,gbd_death_fraction__log_growth1,GBD attributable fraction history,0.0001940904736,-1.198426343e-06,505,153
+daly,3,extra_trees,gbd_death_fraction__lag5,GBD attributable fraction history,0.0001927405198,9.782857756e-05,505,154
+daly,3,extra_trees,overall_death_rate__std3,overall liver-cancer burden history,0.000192259524,0.0001030547482,505,155
+daly,3,extra_trees,gbd_daly_fraction__mean10,GBD attributable fraction history,0.0001916736446,0.0001176182283,505,156
+daly,3,extra_trees,sdi__std10,sociodemographic index history,0.000188710081,4.331601867e-05,505,157
+daly,3,extra_trees,overall_daly_rate__std10,overall liver-cancer burden history,0.0001871248951,5.215457323e-05,505,158
+daly,3,extra_trees,gbd_daly_fraction__std3,GBD attributable fraction history,0.0001867935577,0.0001173272347,505,159
+daly,3,extra_trees,gbd_daly_fraction__log_slope5,GBD attributable fraction history,0.0001857731824,5.367613401e-05,505,160
+daly,3,extra_trees,gbd_daly_fraction__lag10,GBD attributable fraction history,0.0001854937408,8.79786115e-05,505,161
+daly,3,extra_trees,gbd_daly_fraction__cv10,GBD attributable fraction history,0.0001842028811,2.010254101e-05,505,162
+daly,3,extra_trees,sdi__log_growth3,sociodemographic index history,0.0001836307758,3.939757844e-05,505,163
+daly,3,extra_trees,sdi__delta5,sociodemographic index history,0.0001814813946,1.794902279e-05,505,164
+daly,3,extra_trees,sdi__delta3,sociodemographic index history,0.0001777922682,2.631109502e-05,505,165
+daly,3,extra_trees,overall_death_rate__std10,overall liver-cancer burden history,0.0001774697142,2.316828932e-05,505,166
+daly,3,extra_trees,gbd_daly_fraction__current,GBD attributable fraction history,0.0001748559951,9.850063488e-05,505,167
+daly,3,extra_trees,sdi__cv3,sociodemographic index history,0.0001676987368,1.643016038e-05,505,168
+daly,3,extra_trees,overall_death_rate__std5,overall liver-cancer burden history,0.0001671968105,4.873480733e-05,505,169
+daly,3,extra_trees,overall_daly_rate__lag10,overall liver-cancer burden history,0.0001644879774,3.697645045e-05,505,170
+daly,3,extra_trees,sdi__std5,sociodemographic index history,0.0001637039703,2.046704513e-05,505,171
+daly,3,extra_trees,overall_daly_rate__std3,overall liver-cancer burden history,0.0001568540421,6.364640472e-05,505,172
+daly,3,extra_trees,overall_death_rate__cv5,overall liver-cancer burden history,0.0001568520556,3.355557468e-05,505,173
+daly,3,extra_trees,sdi__std3,sociodemographic index history,0.0001528731383,5.997027982e-05,505,174
+daly,3,extra_trees,overall_death_rate__cv10,overall liver-cancer burden history,0.0001493368845,-3.523020476e-05,505,175
+daly,3,extra_trees,sdi__log_growth1,sociodemographic index history,0.000145672593,2.699176261e-05,505,176
+daly,3,extra_trees,sdi__delta1,sociodemographic index history,0.0001413106731,3.480114405e-05,505,177
+daly,3,extra_trees,overall_daly_rate__std5,overall liver-cancer burden history,0.0001124804104,5.676338036e-05,505,178
+daly,3,extra_trees,sdi__current_rel_ui_width,sociodemographic index history,0,0,505,179
+daly,5,extra_trees,bmi_daly_rate__current,BMI-attributable burden history,0.02933951856,0.01000703788,505,1
+daly,5,extra_trees,bmi_death_rate__mean5,BMI-attributable burden history,0.02887772245,0.01057224506,505,2
+daly,5,extra_trees,bmi_daly_rate__mean10,BMI-attributable burden history,0.02834975322,0.008373706017,505,3
+daly,5,extra_trees,bmi_death_rate__mean10,BMI-attributable burden history,0.02781516443,0.008836173463,505,4
+daly,5,extra_trees,bmi_daly_rate__mean3,BMI-attributable burden history,0.02767817156,0.009729236814,505,5
+daly,5,extra_trees,bmi_death_rate__mean3,BMI-attributable burden history,0.027565676,0.01031704947,505,6
+daly,5,extra_trees,bmi_daly_rate__mean5,BMI-attributable burden history,0.0267546701,0.009824342408,505,7
+daly,5,extra_trees,bmi_death_rate__lag1,BMI-attributable burden history,0.02666517739,0.01038797776,505,8
+daly,5,extra_trees,bmi_death_rate__current,BMI-attributable burden history,0.02624713816,0.01002196201,505,9
+daly,5,extra_trees,bmi_death_rate__lag5,BMI-attributable burden history,0.02410767941,0.008167385465,505,10
+daly,5,extra_trees,bmi_daly_rate__lag3,BMI-attributable burden history,0.02374110991,0.00827352765,505,11
+daly,5,extra_trees,bmi_daly_rate__lag5,BMI-attributable burden history,0.02368511296,0.007809406422,505,12
+daly,5,extra_trees,bmi_daly_rate__lag1,BMI-attributable burden history,0.02304012824,0.008385762647,505,13
+daly,5,extra_trees,bmi_death_rate__lag3,BMI-attributable burden history,0.02083087235,0.007848883914,505,14
+daly,5,extra_trees,bmi_daly_rate__lag10,BMI-attributable burden history,0.02043992807,0.004546778441,505,15
+daly,5,extra_trees,bmi_death_rate__lag10,BMI-attributable burden history,0.01500569026,0.004051182847,505,16
+daly,5,extra_trees,overall_death_rate__current,overall liver-cancer burden history,0.01327294321,0.002792981974,505,17
+daly,5,extra_trees,overall_death_rate__mean3,overall liver-cancer burden history,0.01152917041,0.002823123092,505,18
+daly,5,extra_trees,overall_daly_rate__current,overall liver-cancer burden history,0.008989633669,-9.274577565e-05,505,19
+daly,5,extra_trees,overall_death_rate__lag1,overall liver-cancer burden history,0.00884213723,-7.956638415e-05,505,20
+daly,5,extra_trees,gbd_daly_fraction__mean10,GBD attributable fraction history,0.00834676434,0.003710794632,505,21
+daly,5,extra_trees,gbd_daly_fraction__current,GBD attributable fraction history,0.008198792517,0.002704206038,505,22
+daly,5,extra_trees,overall_death_rate__mean10,overall liver-cancer burden history,0.008198649629,0.000446035633,505,23
+daly,5,extra_trees,gbd_death_fraction__lag1,GBD attributable fraction history,0.008164030868,0.002955445136,505,24
+daly,5,extra_trees,gbd_death_fraction__current,GBD attributable fraction history,0.008088754508,0.003301960192,505,25
+daly,5,extra_trees,gbd_daly_fraction__lag1,GBD attributable fraction history,0.007896478556,0.003207942435,505,26
+daly,5,extra_trees,bmi_daly_rate__std10,BMI-attributable burden history,0.007716322083,0.001733169584,505,27
+daly,5,extra_trees,overall_daly_rate__mean5,overall liver-cancer burden history,0.007532196587,7.847620919e-05,505,28
+daly,5,extra_trees,overall_death_rate__mean5,overall liver-cancer burden history,0.007522589351,0.0007743756933,505,29
+daly,5,extra_trees,overall_daly_rate__mean3,overall liver-cancer burden history,0.007391581278,0.0005815229169,505,30
+daly,5,extra_trees,bmi_death_rate__std10,BMI-attributable burden history,0.007350997181,0.001894283125,505,31
+daly,5,extra_trees,overall_death_rate__lag10,overall liver-cancer burden history,0.007327460722,-0.0001844913813,505,32
+daly,5,extra_trees,overall_death_rate__lag5,overall liver-cancer burden history,0.007210318567,0.0008749612769,505,33
+daly,5,extra_trees,gbd_death_fraction__lag5,GBD attributable fraction history,0.007049582556,0.002976231627,505,34
+daly,5,extra_trees,overall_death_rate__lag3,overall liver-cancer burden history,0.007044477109,-9.283983457e-05,505,35
+daly,5,extra_trees,gbd_daly_fraction__lag5,GBD attributable fraction history,0.006833551401,0.003347148736,505,36
+daly,5,extra_trees,derived__current_death_rate_gap,derived definition/gap features,0.006746885195,0.001328265271,505,37
+daly,5,extra_trees,gbd_death_fraction__mean3,GBD attributable fraction history,0.006683816633,0.002401158642,505,38
+daly,5,extra_trees,gbd_daly_fraction__mean3,GBD attributable fraction history,0.006672697491,0.002853116283,505,39
+daly,5,extra_trees,gbd_death_fraction__mean5,GBD attributable fraction history,0.006620392605,0.002480061282,505,40
+daly,5,extra_trees,gbd_death_fraction__lag3,GBD attributable fraction history,0.006305809878,0.003317102349,505,41
+daly,5,extra_trees,gbd_daly_fraction__mean5,GBD attributable fraction history,0.006300979364,0.002139437868,505,42
+daly,5,extra_trees,overall_daly_rate__lag3,overall liver-cancer burden history,0.006158905644,0.0004363202382,505,43
+daly,5,extra_trees,overall_daly_rate__lag1,overall liver-cancer burden history,0.006108808319,0.000801068123,505,44
+daly,5,extra_trees,gbd_death_fraction__mean10,GBD attributable fraction history,0.005906821269,0.002866051571,505,45
+daly,5,extra_trees,gbd_daly_fraction__lag10,GBD attributable fraction history,0.005865502168,0.002694800628,505,46
+daly,5,extra_trees,gbd_daly_fraction__lag3,GBD attributable fraction history,0.0056822232,0.002345929381,505,47
+daly,5,extra_trees,derived__current_daly_rate_gap,derived definition/gap features,0.005613863218,0.0003908249264,505,48
+daly,5,extra_trees,bmi_daly_rate__delta10,BMI-attributable burden history,0.004969913747,0.0004221806213,505,49
+daly,5,extra_trees,overall_daly_rate__lag5,overall liver-cancer burden history,0.004812099342,-0.00067865533,505,50
+daly,5,extra_trees,bmi_death_rate__delta10,BMI-attributable burden history,0.004435554695,0.0008270259999,505,51
+daly,5,extra_trees,overall_daly_rate__mean10,overall liver-cancer burden history,0.004337953868,-0.0005864998353,505,52
+daly,5,extra_trees,gbd_death_fraction__lag10,GBD attributable fraction history,0.004206888977,0.001764716387,505,53
+daly,5,extra_trees,overall_daly_rate__lag10,overall liver-cancer burden history,0.003966090226,-0.0004954225167,505,54
+daly,5,extra_trees,bmi_daly_rate__std5,BMI-attributable burden history,0.003196851807,0.0001143962496,505,55
+daly,5,extra_trees,bmi_death_rate__std5,BMI-attributable burden history,0.002989326519,0.0005142392551,505,56
+daly,5,extra_trees,gbd_daly_fraction__current_rel_ui_width,GBD attributable fraction history,0.002869468547,0.001313333275,505,57
+daly,5,extra_trees,bmi_daly_rate__delta5,BMI-attributable burden history,0.002836998773,0.0001126685307,505,58
+daly,5,extra_trees,bmi_death_rate__delta5,BMI-attributable burden history,0.002729755809,0.000332573452,505,59
+daly,5,extra_trees,bmi_death_rate__std3,BMI-attributable burden history,0.002708979038,0.0002135634822,505,60
+daly,5,extra_trees,bmi_daly_rate__std3,BMI-attributable burden history,0.00235563339,3.729870477e-05,505,61
+daly,5,extra_trees,bmi_death_rate__delta3,BMI-attributable burden history,0.002232939707,7.114499404e-05,505,62
+daly,5,extra_trees,bmi_daly_rate__delta3,BMI-attributable burden history,0.002222393484,5.746322622e-05,505,63
+daly,5,extra_trees,gbd_death_fraction__delta10,GBD attributable fraction history,0.001966719113,0.0006962576084,505,64
+daly,5,extra_trees,gbd_death_fraction__current_rel_ui_width,GBD attributable fraction history,0.001734204847,0.000896022742,505,65
+daly,5,extra_trees,gbd_death_fraction__delta5,GBD attributable fraction history,0.001612304423,0.0005040736812,505,66
+daly,5,extra_trees,gbd_daly_fraction__std10,GBD attributable fraction history,0.001589077487,0.0004666306677,505,67
+daly,5,extra_trees,gbd_death_fraction__std10,GBD attributable fraction history,0.00149796654,0.0005357407899,505,68
+daly,5,extra_trees,gbd_daly_fraction__delta10,GBD attributable fraction history,0.001412565896,0.0004635596867,505,69
+daly,5,extra_trees,gbd_daly_fraction__std5,GBD attributable fraction history,0.001400956013,0.0004391092362,505,70
+daly,5,extra_trees,overall_death_rate__current_rel_ui_width,overall liver-cancer burden history,0.001293274111,-0.000264073985,505,71
+daly,5,extra_trees,overall_daly_rate__current_rel_ui_width,overall liver-cancer burden history,0.001291695663,-0.0002042541034,505,72
+daly,5,extra_trees,bmi_daly_rate__delta1,BMI-attributable burden history,0.001237343261,-5.214346996e-05,505,73
+daly,5,extra_trees,gbd_daly_fraction__delta3,GBD attributable fraction history,0.001150446887,0.0004896830924,505,74
+daly,5,extra_trees,gbd_death_fraction__std5,GBD attributable fraction history,0.001134537732,0.0003509128591,505,75
+daly,5,extra_trees,gbd_death_fraction__delta3,GBD attributable fraction history,0.001100767183,0.0002927104358,505,76
+daly,5,extra_trees,bmi_daly_rate__log_growth5,BMI-attributable burden history,0.0009461026372,0.0001459229466,505,77
+daly,5,extra_trees,bmi_death_rate__delta1,BMI-attributable burden history,0.0009343596787,6.873407693e-05,505,78
+daly,5,extra_trees,gbd_daly_fraction__delta5,GBD attributable fraction history,0.0009005146313,0.0002717741206,505,79
+daly,5,extra_trees,overall_death_rate__std10,overall liver-cancer burden history,0.0008934891407,-9.737738408e-05,505,80
+daly,5,extra_trees,overall_daly_rate__log_growth5,overall liver-cancer burden history,0.0008783642681,0.0002364612362,505,81
+daly,5,extra_trees,overall_daly_rate__delta5,overall liver-cancer burden history,0.0008781600628,1.537817044e-06,505,82
+daly,5,extra_trees,bmi_daly_rate__log_growth3,BMI-attributable burden history,0.0008764946907,7.617456627e-05,505,83
+daly,5,extra_trees,bmi_death_rate__log_growth5,BMI-attributable burden history,0.0008576960573,0.0001642547384,505,84
+daly,5,extra_trees,sdi__lag1,sociodemographic index history,0.0008271788357,-0.0002982265243,505,85
+daly,5,extra_trees,bmi_daly_rate__log_slope5,BMI-attributable burden history,0.0008154513497,5.330951069e-05,505,86
+daly,5,extra_trees,bmi_daly_rate__log_growth10,BMI-attributable burden history,0.0008091435541,0.0002449385173,505,87
+daly,5,extra_trees,sdi__mean10,sociodemographic index history,0.0008081236439,-0.0003368822911,505,88
+daly,5,extra_trees,gbd_death_fraction__std3,GBD attributable fraction history,0.0008072299438,0.0002273666489,505,89
+daly,5,extra_trees,sdi__mean5,sociodemographic index history,0.000801541947,-0.0002139641985,505,90
+daly,5,extra_trees,overall_daly_rate__log_growth10,overall liver-cancer burden history,0.0007926262389,0.0001770391788,505,91
+daly,5,extra_trees,overall_daly_rate__std10,overall liver-cancer burden history,0.0007863768139,-0.0001497621534,505,92
+daly,5,extra_trees,sdi__lag10,sociodemographic index history,0.0007840545326,-0.0002806741935,505,93
+daly,5,extra_trees,sdi__lag5,sociodemographic index history,0.0007695950865,-0.0001435224028,505,94
+daly,5,extra_trees,gbd_daly_fraction__std3,GBD attributable fraction history,0.0007568964917,0.000152152368,505,95
+daly,5,extra_trees,bmi_death_rate__log_growth10,BMI-attributable burden history,0.0007456619295,0.0002026895667,505,96
+daly,5,extra_trees,overall_daly_rate__delta10,overall liver-cancer burden history,0.0007318545487,9.016163391e-05,505,97
+daly,5,extra_trees,bmi_daly_rate__log_slope10,BMI-attributable burden history,0.0007279308857,0.0001527479905,505,98
+daly,5,extra_trees,overall_death_rate__log_growth10,overall liver-cancer burden history,0.0007158830162,0.0001252244836,505,99
+daly,5,extra_trees,overall_death_rate__log_growth5,overall liver-cancer burden history,0.000710582601,6.093085794e-05,505,100
+daly,5,extra_trees,gbd_daly_fraction__delta1,GBD attributable fraction history,0.0007021854493,0.0002422390314,505,101
+daly,5,extra_trees,sdi__mean3,sociodemographic index history,0.0006944362128,3.202990533e-05,505,102
+daly,5,extra_trees,bmi_death_rate__log_slope5,BMI-attributable burden history,0.00069325333,0.0002022921753,505,103
+daly,5,extra_trees,overall_death_rate__std5,overall liver-cancer burden history,0.0006858928843,-8.990171319e-05,505,104
+daly,5,extra_trees,sdi__current,sociodemographic index history,0.0006796280725,-7.556190292e-05,505,105
+daly,5,extra_trees,overall_daly_rate__log_slope10,overall liver-cancer burden history,0.0006714079595,0.000124242076,505,106
+daly,5,extra_trees,bmi_death_rate__log_growth3,BMI-attributable burden history,0.0006647827877,0.0001323761744,505,107
+daly,5,extra_trees,sdi__lag3,sociodemographic index history,0.0006456941026,-4.225758639e-05,505,108
+daly,5,extra_trees,gbd_death_fraction__delta1,GBD attributable fraction history,0.000630408236,0.0002331692613,505,109
+daly,5,extra_trees,overall_death_rate__delta10,overall liver-cancer burden history,0.0006277864647,8.785030809e-05,505,110
+daly,5,extra_trees,bmi_death_rate__log_slope10,BMI-attributable burden history,0.0006149893785,0.0001675705247,505,111
+daly,5,extra_trees,overall_death_rate__log_slope10,overall liver-cancer burden history,0.0006141208725,0.0001659437917,505,112
+daly,5,extra_trees,overall_daly_rate__log_slope5,overall liver-cancer burden history,0.0006057644585,5.149313577e-05,505,113
+daly,5,extra_trees,bmi_death_rate__log_growth1,BMI-attributable burden history,0.0005976140788,7.616815874e-05,505,114
+daly,5,extra_trees,overall_death_rate__log_growth3,overall liver-cancer burden history,0.0005906943193,5.069879682e-05,505,115
+daly,5,extra_trees,overall_death_rate__delta5,overall liver-cancer burden history,0.0005905098678,-1.30360798e-05,505,116
+daly,5,extra_trees,bmi_daly_rate__log_growth1,BMI-attributable burden history,0.0005903073651,4.751039962e-05,505,117
+daly,5,extra_trees,overall_daly_rate__log_growth3,overall liver-cancer burden history,0.0005809364362,0.0001154935519,505,118
+daly,5,extra_trees,gbd_death_fraction__cv3,GBD attributable fraction history,0.000567331142,0.0001067344423,505,119
+daly,5,extra_trees,derived__daly_fraction_definition_gap_pp,derived definition/gap features,0.0005476123947,0.0001119231389,505,120
+daly,5,extra_trees,overall_death_rate__delta3,overall liver-cancer burden history,0.0005186200783,-3.854915045e-05,505,121
+daly,5,extra_trees,overall_daly_rate__delta3,overall liver-cancer burden history,0.0005069795464,6.688338059e-06,505,122
+daly,5,extra_trees,derived__death_fraction_definition_gap_pp,derived definition/gap features,0.0005025397344,7.272693203e-05,505,123
+daly,5,extra_trees,overall_death_rate__log_slope5,overall liver-cancer burden history,0.0004991838271,3.525402521e-05,505,124
+daly,5,extra_trees,overall_daly_rate__delta1,overall liver-cancer burden history,0.0004971719412,-1.068897754e-05,505,125
+daly,5,extra_trees,gbd_daly_fraction__cv5,GBD attributable fraction history,0.0004842711497,0.0002342711377,505,126
+daly,5,extra_trees,gbd_death_fraction__log_growth10,GBD attributable fraction history,0.0004804465923,-3.514187789e-05,505,127
+daly,5,extra_trees,overall_daly_rate__log_growth1,overall liver-cancer burden history,0.0004751890022,7.767226431e-05,505,128
+daly,5,extra_trees,gbd_daly_fraction__log_growth3,GBD attributable fraction history,0.0004719733044,0.0002755514436,505,129
+daly,5,extra_trees,gbd_daly_fraction__log_growth1,GBD attributable fraction history,0.0004702236864,0.0002529003091,505,130
+daly,5,extra_trees,overall_death_rate__log_growth1,overall liver-cancer burden history,0.0004688271722,4.212519834e-05,505,131
+daly,5,extra_trees,overall_death_rate__delta1,overall liver-cancer burden history,0.0004645343392,-4.864062234e-05,505,132
+daly,5,extra_trees,gbd_death_fraction__cv5,GBD attributable fraction history,0.0004585199098,0.0002587919908,505,133
+daly,5,extra_trees,bmi_death_rate__current_rel_ui_width,BMI-attributable burden history,0.0004526789249,8.657882178e-07,505,134
+daly,5,extra_trees,gbd_death_fraction__cv10,GBD attributable fraction history,0.0004377049822,6.01364119e-05,505,135
+daly,5,extra_trees,gbd_daly_fraction__cv10,GBD attributable fraction history,0.0004170728214,8.344309054e-05,505,136
+daly,5,extra_trees,bmi_daly_rate__current_rel_ui_width,BMI-attributable burden history,0.0003983155677,-4.088276418e-05,505,137
+daly,5,extra_trees,overall_daly_rate__cv10,overall liver-cancer burden history,0.0003974182863,5.667890859e-05,505,138
+daly,5,extra_trees,gbd_death_fraction__log_growth5,GBD attributable fraction history,0.0003945741588,0.0001953678372,505,139
+daly,5,extra_trees,gbd_daly_fraction__log_slope10,GBD attributable fraction history,0.0003874496714,1.39925007e-06,505,140
+daly,5,extra_trees,gbd_daly_fraction__log_growth10,GBD attributable fraction history,0.0003753951735,1.603481862e-05,505,141
+daly,5,extra_trees,gbd_death_fraction__log_growth3,GBD attributable fraction history,0.0003653903655,0.0001176062906,505,142
+daly,5,extra_trees,sdi__cv10,sociodemographic index history,0.0003651552574,-3.673859906e-05,505,143
+daly,5,extra_trees,gbd_daly_fraction__log_slope5,GBD attributable fraction history,0.000361031322,0.0001245407995,505,144
+daly,5,extra_trees,gbd_daly_fraction__log_growth5,GBD attributable fraction history,0.0003591371665,0.0001212470981,505,145
+daly,5,extra_trees,bmi_daly_rate__cv10,BMI-attributable burden history,0.0003495769444,4.969908409e-05,505,146
+daly,5,extra_trees,overall_death_rate__cv10,overall liver-cancer burden history,0.000346002115,4.783795832e-05,505,147
+daly,5,extra_trees,sdi__log_growth10,sociodemographic index history,0.0003425948283,-5.082566597e-05,505,148
+daly,5,extra_trees,overall_daly_rate__std5,overall liver-cancer burden history,0.0003381856687,-2.849048948e-05,505,149
+daly,5,extra_trees,gbd_death_fraction__log_slope10,GBD attributable fraction history,0.0003379693652,1.963786408e-05,505,150
+daly,5,extra_trees,gbd_death_fraction__log_growth1,GBD attributable fraction history,0.0003376884964,0.0002026507409,505,151
+daly,5,extra_trees,sdi__cv5,sociodemographic index history,0.0003344963648,1.720709631e-05,505,152
+daly,5,extra_trees,bmi_death_rate__cv10,BMI-attributable burden history,0.0003201654344,-3.020625629e-05,505,153
+daly,5,extra_trees,gbd_death_fraction__log_slope5,GBD attributable fraction history,0.0003188013629,1.871706309e-05,505,154
+daly,5,extra_trees,overall_daly_rate__cv3,overall liver-cancer burden history,0.0002978809397,8.20695115e-05,505,155
+daly,5,extra_trees,overall_daly_rate__cv5,overall liver-cancer burden history,0.0002923353909,9.977799048e-05,505,156
+daly,5,extra_trees,overall_death_rate__cv3,overall liver-cancer burden history,0.0002859317276,0.0001077038488,505,157
+daly,5,extra_trees,sdi__delta1,sociodemographic index history,0.0002840267289,-3.337243004e-05,505,158
+daly,5,extra_trees,sdi__log_slope10,sociodemographic index history,0.0002827618759,2.55474451e-05,505,159
+daly,5,extra_trees,sdi__log_slope5,sociodemographic index history,0.0002820404597,4.673207405e-05,505,160
+daly,5,extra_trees,sdi__std3,sociodemographic index history,0.0002677663613,3.101114484e-05,505,161
+daly,5,extra_trees,sdi__cv3,sociodemographic index history,0.0002603025683,3.090281162e-07,505,162
+daly,5,extra_trees,sdi__log_growth3,sociodemographic index history,0.0002570151352,-2.889208448e-06,505,163
+daly,5,extra_trees,sdi__log_growth5,sociodemographic index history,0.0002528296206,-1.970444543e-05,505,164
+daly,5,extra_trees,sdi__delta3,sociodemographic index history,0.0002525999561,-4.563187347e-05,505,165
+daly,5,extra_trees,bmi_daly_rate__cv5,BMI-attributable burden history,0.0002472527906,1.011806671e-05,505,166
+daly,5,extra_trees,gbd_daly_fraction__cv3,GBD attributable fraction history,0.0002410112447,0.0001479829535,505,167
+daly,5,extra_trees,sdi__std5,sociodemographic index history,0.0002331784465,-7.401118919e-07,505,168
+daly,5,extra_trees,sdi__delta5,sociodemographic index history,0.0002255522469,1.759317279e-05,505,169
+daly,5,extra_trees,sdi__log_growth1,sociodemographic index history,0.0002207971465,-3.006054916e-06,505,170
+daly,5,extra_trees,bmi_death_rate__cv5,BMI-attributable burden history,0.0002204179535,-4.608319205e-05,505,171
+daly,5,extra_trees,sdi__std10,sociodemographic index history,0.0002198499794,9.539487203e-06,505,172
+daly,5,extra_trees,sdi__delta10,sociodemographic index history,0.0002133344073,2.336795577e-05,505,173
+daly,5,extra_trees,overall_death_rate__std3,overall liver-cancer burden history,0.0002101810724,3.478031667e-06,505,174
+daly,5,extra_trees,bmi_death_rate__cv3,BMI-attributable burden history,0.0001959805506,3.77733287e-05,505,175
+daly,5,extra_trees,overall_death_rate__cv5,overall liver-cancer burden history,0.0001885972427,4.29299272e-05,505,176
+daly,5,extra_trees,bmi_daly_rate__cv3,BMI-attributable burden history,0.0001841158691,8.048521548e-06,505,177
+daly,5,extra_trees,overall_daly_rate__std3,overall liver-cancer burden history,0.0001718955918,2.441039638e-05,505,178
+daly,5,extra_trees,sdi__current_rel_ui_width,sociodemographic index history,0,0,505,179
+death,1,extra_trees,bmi_death_rate__current,BMI-attributable burden history,0.04318688603,0.01590564644,505,1
+death,1,extra_trees,bmi_death_rate__mean3,BMI-attributable burden history,0.03561284671,0.01349517749,505,2
+death,1,extra_trees,bmi_death_rate__lag1,BMI-attributable burden history,0.0309957118,0.0112292601,505,3
+death,1,extra_trees,bmi_death_rate__mean5,BMI-attributable burden history,0.02590247282,0.01020517394,505,4
+death,1,extra_trees,bmi_death_rate__lag3,BMI-attributable burden history,0.01844189921,0.007130079715,505,5
+death,1,extra_trees,bmi_daly_rate__current,BMI-attributable burden history,0.01833978558,0.007925691333,505,6
+death,1,extra_trees,bmi_daly_rate__lag1,BMI-attributable burden history,0.01375229175,0.005705288696,505,7
+death,1,extra_trees,bmi_death_rate__mean10,BMI-attributable burden history,0.01306675716,0.004977914879,505,8
+death,1,extra_trees,bmi_daly_rate__mean3,BMI-attributable burden history,0.0123338664,0.004990557823,505,9
+death,1,extra_trees,bmi_daly_rate__lag3,BMI-attributable burden history,0.009730018966,0.003562744018,505,10
+death,1,extra_trees,bmi_daly_rate__mean5,BMI-attributable burden history,0.009417560139,0.003644761057,505,11
+death,1,extra_trees,bmi_daly_rate__mean10,BMI-attributable burden history,0.007178489172,0.002549161911,505,12
+death,1,extra_trees,bmi_daly_rate__lag5,BMI-attributable burden history,0.006644575971,0.002182528503,505,13
+death,1,extra_trees,bmi_death_rate__lag5,BMI-attributable burden history,0.006632347155,0.002662975957,505,14
+death,1,extra_trees,bmi_death_rate__lag10,BMI-attributable burden history,0.004946883768,0.001643444255,505,15
+death,1,extra_trees,bmi_daly_rate__lag10,BMI-attributable burden history,0.003844596118,0.001229629243,505,16
+death,1,extra_trees,bmi_death_rate__delta1,BMI-attributable burden history,0.0005474759682,8.004818807e-05,505,17
+death,1,extra_trees,bmi_death_rate__log_growth1,BMI-attributable burden history,0.0004833743273,7.726857939e-05,505,18
+death,1,extra_trees,bmi_daly_rate__delta1,BMI-attributable burden history,0.0004653156109,9.542669976e-05,505,19
+death,1,extra_trees,bmi_daly_rate__log_growth1,BMI-attributable burden history,0.0004023491111,7.705780852e-05,505,20
+death,1,extra_trees,bmi_death_rate__delta3,BMI-attributable burden history,0.0003722016018,5.932760315e-05,505,21
+death,1,extra_trees,overall_death_rate__mean3,overall liver-cancer burden history,0.0002933329098,-0.0001800266416,505,22
+death,1,extra_trees,bmi_death_rate__log_growth3,BMI-attributable burden history,0.0002906302262,5.404421828e-05,505,23
+death,1,extra_trees,overall_death_rate__log_growth1,overall liver-cancer burden history,0.0002895856105,5.205562201e-05,505,24
+death,1,extra_trees,overall_daly_rate__log_growth1,overall liver-cancer burden history,0.0002826097235,5.674010134e-05,505,25
+death,1,extra_trees,overall_death_rate__lag5,overall liver-cancer burden history,0.0002742785884,-0.000179929428,505,26
+death,1,extra_trees,bmi_daly_rate__delta3,BMI-attributable burden history,0.0002728525702,7.513509524e-05,505,27
+death,1,extra_trees,bmi_daly_rate__log_growth3,BMI-attributable burden history,0.0002571492113,7.962240334e-05,505,28
+death,1,extra_trees,overall_death_rate__lag3,overall liver-cancer burden history,0.0002340777976,-0.0001465484565,505,29
+death,1,extra_trees,derived__current_daly_rate_gap,derived definition/gap features,0.0002280208544,-0.0001288423566,505,30
+death,1,extra_trees,overall_death_rate__delta1,overall liver-cancer burden history,0.0002115223045,5.553636624e-05,505,31
+death,1,extra_trees,overall_daly_rate__current,overall liver-cancer burden history,0.0001873955422,-0.0001106980756,505,32
+death,1,extra_trees,overall_death_rate__mean5,overall liver-cancer burden history,0.000187065602,-0.0001124392655,505,33
+death,1,extra_trees,overall_death_rate__current,overall liver-cancer burden history,0.000185526243,-0.0001113490762,505,34
+death,1,extra_trees,bmi_death_rate__delta5,BMI-attributable burden history,0.0001820669475,3.245076625e-05,505,35
+death,1,extra_trees,overall_death_rate__lag10,overall liver-cancer burden history,0.000180882854,-0.0001138701507,505,36
+death,1,extra_trees,overall_daly_rate__lag1,overall liver-cancer burden history,0.0001755816505,-9.683713251e-05,505,37
+death,1,extra_trees,overall_daly_rate__lag5,overall liver-cancer burden history,0.0001753092743,-0.0001004735043,505,38
+death,1,extra_trees,overall_daly_rate__log_growth3,overall liver-cancer burden history,0.0001750916789,6.343055996e-05,505,39
+death,1,extra_trees,overall_death_rate__log_growth3,overall liver-cancer burden history,0.0001749945529,5.258266709e-05,505,40
+death,1,extra_trees,derived__current_death_rate_gap,derived definition/gap features,0.0001734700587,-0.0001021982343,505,41
+death,1,extra_trees,bmi_daly_rate__delta5,BMI-attributable burden history,0.0001715655848,1.613847093e-05,505,42
+death,1,extra_trees,overall_daly_rate__delta1,overall liver-cancer burden history,0.0001699386881,4.829873474e-05,505,43
+death,1,extra_trees,overall_death_rate__lag1,overall liver-cancer burden history,0.0001611453828,-9.769974732e-05,505,44
+death,1,extra_trees,overall_daly_rate__mean10,overall liver-cancer burden history,0.0001563661839,-9.770979429e-05,505,45
+death,1,extra_trees,overall_death_rate__mean10,overall liver-cancer burden history,0.0001557836237,-9.516020094e-05,505,46
+death,1,extra_trees,bmi_death_rate__log_slope5,BMI-attributable burden history,0.0001527325432,3.890079645e-05,505,47
+death,1,extra_trees,overall_daly_rate__mean5,overall liver-cancer burden history,0.0001492489554,-8.240930024e-05,505,48
+death,1,extra_trees,overall_daly_rate__mean3,overall liver-cancer burden history,0.0001311391623,-7.560048982e-05,505,49
+death,1,extra_trees,bmi_daly_rate__log_slope5,BMI-attributable burden history,0.0001268553534,4.102258181e-05,505,50
+death,1,extra_trees,bmi_death_rate__log_growth5,BMI-attributable burden history,0.0001193662135,3.915393719e-05,505,51
+death,1,extra_trees,overall_daly_rate__lag3,overall liver-cancer burden history,0.0001176759024,-6.717001517e-05,505,52
+death,1,extra_trees,overall_death_rate__delta3,overall liver-cancer burden history,0.0001138383346,3.393970514e-05,505,53
+death,1,extra_trees,overall_daly_rate__lag10,overall liver-cancer burden history,0.0001095122281,-6.154067523e-05,505,54
+death,1,extra_trees,bmi_daly_rate__log_growth5,BMI-attributable burden history,9.652739017e-05,2.04071718e-05,505,55
+death,1,extra_trees,bmi_death_rate__delta10,BMI-attributable burden history,9.525097453e-05,8.038848047e-06,505,56
+death,1,extra_trees,bmi_death_rate__std3,BMI-attributable burden history,9.487321488e-05,3.143832258e-05,505,57
+death,1,extra_trees,bmi_daly_rate__std3,BMI-attributable burden history,8.316794672e-05,2.861338678e-05,505,58
+death,1,extra_trees,overall_daly_rate__log_slope5,overall liver-cancer burden history,8.141888876e-05,3.718369969e-05,505,59
+death,1,extra_trees,overall_daly_rate__delta3,overall liver-cancer burden history,7.97870688e-05,3.403547974e-05,505,60
+death,1,extra_trees,overall_death_rate__log_slope5,overall liver-cancer burden history,7.511272021e-05,3.084753515e-05,505,61
+death,1,extra_trees,bmi_death_rate__std5,BMI-attributable burden history,7.384981931e-05,2.320162035e-05,505,62
+death,1,extra_trees,bmi_death_rate__cv3,BMI-attributable burden history,7.36915825e-05,1.396961044e-05,505,63
+death,1,extra_trees,bmi_daly_rate__delta10,BMI-attributable burden history,7.228362234e-05,2.428270097e-06,505,64
+death,1,extra_trees,overall_death_rate__log_growth5,overall liver-cancer burden history,6.579251451e-05,2.745951138e-05,505,65
+death,1,extra_trees,bmi_death_rate__log_growth10,BMI-attributable burden history,6.557343087e-05,2.025353581e-05,505,66
+death,1,extra_trees,bmi_daly_rate__std5,BMI-attributable burden history,6.324644396e-05,1.415093916e-05,505,67
+death,1,extra_trees,overall_death_rate__cv3,overall liver-cancer burden history,6.288591192e-05,5.047209532e-06,505,68
+death,1,extra_trees,overall_daly_rate__log_growth5,overall liver-cancer burden history,5.835314223e-05,2.584709891e-05,505,69
+death,1,extra_trees,gbd_daly_fraction__mean5,GBD attributable fraction history,5.554654161e-05,2.220801467e-05,505,70
+death,1,extra_trees,overall_daly_rate__cv3,overall liver-cancer burden history,5.470007955e-05,5.483506427e-06,505,71
+death,1,extra_trees,gbd_death_fraction__lag10,GBD attributable fraction history,5.387681115e-05,3.279262468e-06,505,72
+death,1,extra_trees,bmi_daly_rate__log_growth10,BMI-attributable burden history,5.097985307e-05,1.201446292e-05,505,73
+death,1,extra_trees,gbd_death_fraction__current,GBD attributable fraction history,5.054561825e-05,6.893034788e-06,505,74
+death,1,extra_trees,overall_death_rate__std3,overall liver-cancer burden history,4.893025309e-05,1.895885282e-05,505,75
+death,1,extra_trees,sdi__log_growth10,sociodemographic index history,4.737981052e-05,6.826893578e-06,505,76
+death,1,extra_trees,bmi_daly_rate__std10,BMI-attributable burden history,4.594607229e-05,3.14980777e-06,505,77
+death,1,extra_trees,bmi_daly_rate__cv3,BMI-attributable burden history,4.522223761e-05,3.42223077e-06,505,78
+death,1,extra_trees,bmi_daly_rate__current_rel_ui_width,BMI-attributable burden history,4.472824235e-05,-2.853826257e-05,505,79
+death,1,extra_trees,bmi_death_rate__cv5,BMI-attributable burden history,4.348046264e-05,4.915789109e-07,505,80
+death,1,extra_trees,gbd_daly_fraction__lag10,GBD attributable fraction history,4.297417843e-05,4.918993665e-06,505,81
+death,1,extra_trees,overall_death_rate__cv10,overall liver-cancer burden history,4.282606537e-05,2.412127387e-06,505,82
+death,1,extra_trees,gbd_daly_fraction__current,GBD attributable fraction history,4.274276836e-05,6.400203174e-06,505,83
+death,1,extra_trees,sdi__mean5,sociodemographic index history,4.194604272e-05,1.28916318e-05,505,84
+death,1,extra_trees,overall_death_rate__log_growth10,overall liver-cancer burden history,4.14412079e-05,1.412522514e-05,505,85
+death,1,extra_trees,overall_daly_rate__std3,overall liver-cancer burden history,4.063156153e-05,1.817292522e-05,505,86
+death,1,extra_trees,sdi__delta10,sociodemographic index history,4.056487527e-05,-6.342498421e-06,505,87
+death,1,extra_trees,gbd_daly_fraction__delta1,GBD attributable fraction history,3.951817298e-05,8.450720129e-06,505,88
+death,1,extra_trees,bmi_daly_rate__cv5,BMI-attributable burden history,3.923520945e-05,1.027687173e-05,505,89
+death,1,extra_trees,overall_death_rate__delta5,overall liver-cancer burden history,3.871021687e-05,9.382931928e-06,505,90
+death,1,extra_trees,bmi_death_rate__log_slope10,BMI-attributable burden history,3.841695017e-05,1.152857731e-05,505,91
+death,1,extra_trees,overall_daly_rate__delta5,overall liver-cancer burden history,3.831639958e-05,1.715722481e-05,505,92
+death,1,extra_trees,gbd_death_fraction__mean3,GBD attributable fraction history,3.831085145e-05,9.763313242e-06,505,93
+death,1,extra_trees,gbd_death_fraction__mean10,GBD attributable fraction history,3.830670049e-05,7.255688931e-06,505,94
+death,1,extra_trees,overall_death_rate__std5,overall liver-cancer burden history,3.809998029e-05,2.10180797e-05,505,95
+death,1,extra_trees,gbd_death_fraction__lag3,GBD attributable fraction history,3.710219612e-05,1.047121923e-05,505,96
+death,1,extra_trees,gbd_daly_fraction__lag3,GBD attributable fraction history,3.686786692e-05,1.136598375e-05,505,97
+death,1,extra_trees,overall_daly_rate__current_rel_ui_width,overall liver-cancer burden history,3.685612443e-05,-4.902621329e-07,505,98
+death,1,extra_trees,gbd_daly_fraction__mean3,GBD attributable fraction history,3.684359515e-05,1.437452715e-05,505,99
+death,1,extra_trees,gbd_daly_fraction__current_rel_ui_width,GBD attributable fraction history,3.682038763e-05,7.38349009e-06,505,100
+death,1,extra_trees,overall_daly_rate__log_growth10,overall liver-cancer burden history,3.666737223e-05,9.834605618e-06,505,101
+death,1,extra_trees,gbd_death_fraction__delta1,GBD attributable fraction history,3.64537831e-05,7.877129082e-06,505,102
+death,1,extra_trees,gbd_daly_fraction__lag1,GBD attributable fraction history,3.633628826e-05,1.158995915e-05,505,103
+death,1,extra_trees,sdi__lag3,sociodemographic index history,3.623826096e-05,-1.293326517e-05,505,104
+death,1,extra_trees,sdi__std10,sociodemographic index history,3.614931796e-05,4.717811352e-07,505,105
+death,1,extra_trees,overall_daly_rate__cv5,overall liver-cancer burden history,3.596911919e-05,8.102786076e-06,505,106
+death,1,extra_trees,bmi_daly_rate__log_slope10,BMI-attributable burden history,3.550592526e-05,9.478173288e-06,505,107
+death,1,extra_trees,bmi_death_rate__std10,BMI-attributable burden history,3.520943341e-05,4.564774371e-06,505,108
+death,1,extra_trees,sdi__lag1,sociodemographic index history,3.51931389e-05,1.277181436e-05,505,109
+death,1,extra_trees,sdi__log_slope10,sociodemographic index history,3.516409314e-05,-1.464550092e-07,505,110
+death,1,extra_trees,gbd_death_fraction__lag1,GBD attributable fraction history,3.472402836e-05,1.257405739e-05,505,111
+death,1,extra_trees,gbd_death_fraction__lag5,GBD attributable fraction history,3.455326459e-05,7.469264494e-06,505,112
+death,1,extra_trees,gbd_daly_fraction__lag5,GBD attributable fraction history,3.397776697e-05,2.939384272e-06,505,113
+death,1,extra_trees,gbd_daly_fraction__delta5,GBD attributable fraction history,3.380914412e-05,1.420971273e-05,505,114
+death,1,extra_trees,gbd_death_fraction__mean5,GBD attributable fraction history,3.357212829e-05,8.606005822e-06,505,115
+death,1,extra_trees,sdi__delta1,sociodemographic index history,3.305277759e-05,-7.025300128e-06,505,116
+death,1,extra_trees,gbd_daly_fraction__delta10,GBD attributable fraction history,3.286252394e-05,1.679739343e-05,505,117
+death,1,extra_trees,sdi__mean10,sociodemographic index history,3.282600415e-05,-3.29803983e-06,505,118
+death,1,extra_trees,sdi__lag5,sociodemographic index history,3.275394108e-05,-3.017527958e-06,505,119
+death,1,extra_trees,bmi_daly_rate__cv10,BMI-attributable burden history,3.235481323e-05,-3.309192737e-06,505,120
+death,1,extra_trees,gbd_death_fraction__std10,GBD attributable fraction history,3.218052515e-05,7.522250201e-06,505,121
+death,1,extra_trees,sdi__cv10,sociodemographic index history,3.203562954e-05,-1.523583925e-06,505,122
+death,1,extra_trees,gbd_daly_fraction__std10,GBD attributable fraction history,3.191006665e-05,1.223671254e-05,505,123
+death,1,extra_trees,derived__daly_fraction_definition_gap_pp,derived definition/gap features,3.177791267e-05,1.395663819e-06,505,124
+death,1,extra_trees,sdi__current,sociodemographic index history,3.118710702e-05,5.875947807e-06,505,125
+death,1,extra_trees,sdi__lag10,sociodemographic index history,3.108852648e-05,-1.789278584e-05,505,126
+death,1,extra_trees,overall_daly_rate__cv10,overall liver-cancer burden history,3.104506997e-05,1.477762628e-06,505,127
+death,1,extra_trees,gbd_daly_fraction__log_slope10,GBD attributable fraction history,3.08404966e-05,9.998953174e-06,505,128
+death,1,extra_trees,overall_death_rate__cv5,overall liver-cancer burden history,3.044908531e-05,5.940301751e-06,505,129
+death,1,extra_trees,sdi__mean3,sociodemographic index history,3.020827361e-05,-2.394724608e-06,505,130
+death,1,extra_trees,gbd_daly_fraction__mean10,GBD attributable fraction history,2.954328415e-05,2.336724191e-06,505,131
+death,1,extra_trees,overall_death_rate__std10,overall liver-cancer burden history,2.812566046e-05,1.262113072e-05,505,132
+death,1,extra_trees,gbd_death_fraction__delta5,GBD attributable fraction history,2.790830698e-05,1.469678388e-05,505,133
+death,1,extra_trees,bmi_death_rate__cv10,BMI-attributable burden history,2.725009085e-05,-3.598785702e-06,505,134
+death,1,extra_trees,overall_daly_rate__std5,overall liver-cancer burden history,2.706100785e-05,1.430181896e-05,505,135
+death,1,extra_trees,overall_death_rate__log_slope10,overall liver-cancer burden history,2.683017455e-05,4.858847447e-06,505,136
+death,1,extra_trees,gbd_death_fraction__std3,GBD attributable fraction history,2.654359533e-05,9.902936255e-06,505,137
+death,1,extra_trees,gbd_death_fraction__delta10,GBD attributable fraction history,2.627584532e-05,7.781961973e-06,505,138
+death,1,extra_trees,overall_daly_rate__std10,overall liver-cancer burden history,2.579073298e-05,1.164324608e-05,505,139
+death,1,extra_trees,gbd_death_fraction__std5,GBD attributable fraction history,2.565681647e-05,8.643549198e-06,505,140
+death,1,extra_trees,derived__death_fraction_definition_gap_pp,derived definition/gap features,2.519962367e-05,1.754146461e-06,505,141
+death,1,extra_trees,gbd_daly_fraction__cv10,GBD attributable fraction history,2.508115237e-05,7.832128774e-06,505,142
+death,1,extra_trees,gbd_daly_fraction__std3,GBD attributable fraction history,2.506563244e-05,7.299284221e-06,505,143
+death,1,extra_trees,gbd_death_fraction__log_growth10,GBD attributable fraction history,2.441166073e-05,5.133057897e-06,505,144
+death,1,extra_trees,gbd_death_fraction__current_rel_ui_width,GBD attributable fraction history,2.438390928e-05,5.54742872e-06,505,145
+death,1,extra_trees,sdi__std3,sociodemographic index history,2.431657404e-05,-4.271458809e-07,505,146
+death,1,extra_trees,gbd_daly_fraction__delta3,GBD attributable fraction history,2.415090365e-05,6.968382297e-06,505,147
+death,1,extra_trees,gbd_death_fraction__log_slope10,GBD attributable fraction history,2.394976544e-05,-8.836922827e-07,505,148
+death,1,extra_trees,overall_death_rate__current_rel_ui_width,overall liver-cancer burden history,2.356298867e-05,-3.471505298e-06,505,149
+death,1,extra_trees,gbd_death_fraction__delta3,GBD attributable fraction history,2.355272307e-05,7.255491193e-06,505,150
+death,1,extra_trees,bmi_death_rate__current_rel_ui_width,BMI-attributable burden history,2.264475412e-05,-8.035304869e-06,505,151
+death,1,extra_trees,gbd_daly_fraction__log_growth10,GBD attributable fraction history,2.229971283e-05,-3.343922699e-07,505,152
+death,1,extra_trees,gbd_daly_fraction__std5,GBD attributable fraction history,2.222772549e-05,5.104906019e-06,505,153
+death,1,extra_trees,sdi__cv3,sociodemographic index history,2.16602653e-05,-9.969229047e-06,505,154
+death,1,extra_trees,sdi__cv5,sociodemographic index history,2.129017086e-05,-5.954976586e-06,505,155
+death,1,extra_trees,sdi__std5,sociodemographic index history,2.111936548e-05,-7.619928972e-06,505,156
+death,1,extra_trees,sdi__log_growth1,sociodemographic index history,2.099629744e-05,-1.018670671e-05,505,157
+death,1,extra_trees,overall_daly_rate__log_slope10,overall liver-cancer burden history,2.06477562e-05,2.905560845e-06,505,158
+death,1,extra_trees,gbd_death_fraction__cv10,GBD attributable fraction history,2.05258254e-05,4.202208596e-06,505,159
+death,1,extra_trees,overall_death_rate__delta10,overall liver-cancer burden history,2.04805358e-05,3.111534648e-06,505,160
+death,1,extra_trees,gbd_daly_fraction__cv5,GBD attributable fraction history,1.949710129e-05,5.458607278e-06,505,161
+death,1,extra_trees,gbd_daly_fraction__log_growth5,GBD attributable fraction history,1.935387042e-05,6.662714751e-06,505,162
+death,1,extra_trees,sdi__delta3,sociodemographic index history,1.921167717e-05,4.365578062e-06,505,163
+death,1,extra_trees,gbd_daly_fraction__log_growth1,GBD attributable fraction history,1.903059846e-05,-3.122322186e-06,505,164
+death,1,extra_trees,gbd_daly_fraction__log_slope5,GBD attributable fraction history,1.831366845e-05,4.604833441e-06,505,165
+death,1,extra_trees,overall_daly_rate__delta10,overall liver-cancer burden history,1.758602842e-05,4.211214487e-06,505,166
+death,1,extra_trees,sdi__delta5,sociodemographic index history,1.700605384e-05,-2.244467062e-06,505,167
+death,1,extra_trees,gbd_death_fraction__log_growth1,GBD attributable fraction history,1.623076794e-05,-6.394829331e-07,505,168
+death,1,extra_trees,gbd_daly_fraction__cv3,GBD attributable fraction history,1.620206526e-05,-4.259153805e-06,505,169
+death,1,extra_trees,gbd_death_fraction__log_growth5,GBD attributable fraction history,1.566946987e-05,5.175478888e-07,505,170
+death,1,extra_trees,gbd_death_fraction__cv3,GBD attributable fraction history,1.526785956e-05,-2.813090042e-06,505,171
+death,1,extra_trees,gbd_daly_fraction__log_growth3,GBD attributable fraction history,1.496407708e-05,-3.805338169e-07,505,172
+death,1,extra_trees,sdi__log_slope5,sociodemographic index history,1.444365552e-05,-3.150134758e-06,505,173
+death,1,extra_trees,gbd_death_fraction__log_growth3,GBD attributable fraction history,1.399681158e-05,1.524489975e-07,505,174
+death,1,extra_trees,gbd_death_fraction__cv5,GBD attributable fraction history,1.37892158e-05,-1.75659928e-06,505,175
+death,1,extra_trees,gbd_death_fraction__log_slope5,GBD attributable fraction history,1.378143715e-05,4.272411305e-07,505,176
+death,1,extra_trees,sdi__log_growth5,sociodemographic index history,1.343055585e-05,9.196380842e-07,505,177
+death,1,extra_trees,sdi__log_growth3,sociodemographic index history,1.267252064e-05,-5.611301226e-07,505,178
+death,1,extra_trees,sdi__current_rel_ui_width,sociodemographic index history,0,0,505,179
+death,3,extra_trees,bmi_death_rate__current,BMI-attributable burden history,0.03465535097,0.01199153795,505,1
+death,3,extra_trees,bmi_death_rate__mean3,BMI-attributable burden history,0.02827695349,0.01006194819,505,2
+death,3,extra_trees,bmi_death_rate__mean5,BMI-attributable burden history,0.02307596782,0.008068355515,505,3
+death,3,extra_trees,bmi_death_rate__lag1,BMI-attributable burden history,0.02281479129,0.008306431642,505,4
+death,3,extra_trees,bmi_death_rate__mean10,BMI-attributable burden history,0.01636466151,0.005826044817,505,5
+death,3,extra_trees,bmi_daly_rate__mean5,BMI-attributable burden history,0.01617985682,0.0057343227,505,6
+death,3,extra_trees,bmi_daly_rate__current,BMI-attributable burden history,0.01616571792,0.006069940631,505,7
+death,3,extra_trees,bmi_death_rate__lag3,BMI-attributable burden history,0.0151333099,0.005558446597,505,8
+death,3,extra_trees,bmi_daly_rate__mean3,BMI-attributable burden history,0.0142214511,0.004992072822,505,9
+death,3,extra_trees,bmi_daly_rate__lag1,BMI-attributable burden history,0.01271201045,0.004739253847,505,10
+death,3,extra_trees,bmi_daly_rate__lag3,BMI-attributable burden history,0.01205330266,0.004232091786,505,11
+death,3,extra_trees,bmi_death_rate__lag5,BMI-attributable burden history,0.01194683485,0.004305572256,505,12
+death,3,extra_trees,bmi_daly_rate__mean10,BMI-attributable burden history,0.01046797027,0.003679812255,505,13
+death,3,extra_trees,bmi_daly_rate__lag5,BMI-attributable burden history,0.01024715699,0.003472726438,505,14
+death,3,extra_trees,bmi_death_rate__lag10,BMI-attributable burden history,0.006624709435,0.002129355204,505,15
+death,3,extra_trees,bmi_daly_rate__lag10,BMI-attributable burden history,0.006135179433,0.001929691538,505,16
+death,3,extra_trees,bmi_death_rate__delta3,BMI-attributable burden history,0.0006585934314,1.203030776e-05,505,17
+death,3,extra_trees,bmi_death_rate__delta1,BMI-attributable burden history,0.0006372120193,9.080823514e-06,505,18
+death,3,extra_trees,bmi_daly_rate__delta1,BMI-attributable burden history,0.0005323977401,2.709110056e-05,505,19
+death,3,extra_trees,bmi_daly_rate__std10,BMI-attributable burden history,0.0005293114353,0.0001382980244,505,20
+death,3,extra_trees,bmi_death_rate__log_growth1,BMI-attributable burden history,0.000509260198,6.381918742e-05,505,21
+death,3,extra_trees,bmi_daly_rate__log_growth1,BMI-attributable burden history,0.0004867624768,7.016123247e-05,505,22
+death,3,extra_trees,bmi_death_rate__delta5,BMI-attributable burden history,0.0004839637391,3.383572147e-05,505,23
+death,3,extra_trees,bmi_death_rate__log_growth3,BMI-attributable burden history,0.0004373789187,4.62074655e-05,505,24
+death,3,extra_trees,bmi_daly_rate__delta3,BMI-attributable burden history,0.0004140952778,2.383821443e-05,505,25
+death,3,extra_trees,bmi_daly_rate__log_growth3,BMI-attributable burden history,0.0004075486103,7.243479941e-05,505,26
+death,3,extra_trees,bmi_death_rate__delta10,BMI-attributable burden history,0.0004068183347,7.815629278e-05,505,27
+death,3,extra_trees,overall_death_rate__log_growth1,overall liver-cancer burden history,0.0004039621474,5.230959811e-05,505,28
+death,3,extra_trees,bmi_death_rate__std10,BMI-attributable burden history,0.000391785242,7.594115559e-05,505,29
+death,3,extra_trees,bmi_daly_rate__delta5,BMI-attributable burden history,0.000389644159,4.686754725e-05,505,30
+death,3,extra_trees,bmi_daly_rate__delta10,BMI-attributable burden history,0.0003403914249,9.581426979e-06,505,31
+death,3,extra_trees,overall_daly_rate__log_growth1,overall liver-cancer burden history,0.0003309180003,5.020344451e-05,505,32
+death,3,extra_trees,bmi_death_rate__log_growth5,BMI-attributable burden history,0.0003098047458,4.473246148e-05,505,33
+death,3,extra_trees,gbd_daly_fraction__lag5,GBD attributable fraction history,0.0003021866179,0.000122759648,505,34
+death,3,extra_trees,bmi_daly_rate__log_slope5,BMI-attributable burden history,0.0002923629886,4.714759807e-05,505,35
+death,3,extra_trees,overall_death_rate__delta1,overall liver-cancer burden history,0.000287717234,4.443344483e-05,505,36
+death,3,extra_trees,overall_daly_rate__log_growth3,overall liver-cancer burden history,0.0002859933923,6.171262253e-05,505,37
+death,3,extra_trees,bmi_daly_rate__log_growth5,BMI-attributable burden history,0.0002798116328,3.097661544e-05,505,38
+death,3,extra_trees,bmi_death_rate__log_slope5,BMI-attributable burden history,0.0002755363966,5.054535643e-05,505,39
+death,3,extra_trees,overall_death_rate__log_growth3,overall liver-cancer burden history,0.0002671034485,5.521268724e-05,505,40
+death,3,extra_trees,overall_death_rate__current,overall liver-cancer burden history,0.0002606543598,-0.000138517403,505,41
+death,3,extra_trees,overall_death_rate__lag3,overall liver-cancer burden history,0.0002484651908,-0.0001424677327,505,42
+death,3,extra_trees,overall_death_rate__delta3,overall liver-cancer burden history,0.0002444762585,6.43089504e-05,505,43
+death,3,extra_trees,bmi_daly_rate__log_growth10,BMI-attributable burden history,0.0002410083499,3.277903149e-05,505,44
+death,3,extra_trees,overall_death_rate__mean3,overall liver-cancer burden history,0.0002389860345,-0.0001564759718,505,45
+death,3,extra_trees,bmi_death_rate__log_growth10,BMI-attributable burden history,0.0002382961654,5.165949717e-05,505,46
+death,3,extra_trees,gbd_death_fraction__mean5,GBD attributable fraction history,0.0002335563835,5.296843877e-05,505,47
+death,3,extra_trees,overall_daly_rate__delta1,overall liver-cancer burden history,0.0002205904058,4.588961741e-05,505,48
+death,3,extra_trees,gbd_daly_fraction__current,GBD attributable fraction history,0.0002182357745,7.556438203e-05,505,49
+death,3,extra_trees,overall_daly_rate__log_slope5,overall liver-cancer burden history,0.0002175856532,5.812727558e-05,505,50
+death,3,extra_trees,overall_death_rate__log_growth5,overall liver-cancer burden history,0.000217159726,1.915940424e-05,505,51
+death,3,extra_trees,bmi_death_rate__std5,BMI-attributable burden history,0.0002079705152,4.032621625e-05,505,52
+death,3,extra_trees,gbd_daly_fraction__mean3,GBD attributable fraction history,0.000203910243,6.749930105e-05,505,53
+death,3,extra_trees,gbd_daly_fraction__lag1,GBD attributable fraction history,0.000202827165,7.766827212e-05,505,54
+death,3,extra_trees,overall_daly_rate__delta3,overall liver-cancer burden history,0.0001955917304,6.910856787e-05,505,55
+death,3,extra_trees,overall_death_rate__mean5,overall liver-cancer burden history,0.0001927458386,-0.0001241843413,505,56
+death,3,extra_trees,derived__current_death_rate_gap,derived definition/gap features,0.0001915614787,-9.059282927e-05,505,57
+death,3,extra_trees,gbd_daly_fraction__mean5,GBD attributable fraction history,0.0001893303205,7.236231872e-05,505,58
+death,3,extra_trees,overall_daly_rate__log_growth5,overall liver-cancer burden history,0.0001863833649,2.631686583e-05,505,59
+death,3,extra_trees,overall_death_rate__log_growth10,overall liver-cancer burden history,0.0001848032286,1.103771225e-05,505,60
+death,3,extra_trees,bmi_death_rate__std3,BMI-attributable burden history,0.0001788911379,2.203156021e-07,505,61
+death,3,extra_trees,overall_daly_rate__log_growth10,overall liver-cancer burden history,0.0001785466407,2.375315965e-05,505,62
+death,3,extra_trees,overall_death_rate__log_slope5,overall liver-cancer burden history,0.0001756405475,3.106008725e-05,505,63
+death,3,extra_trees,overall_death_rate__lag1,overall liver-cancer burden history,0.0001737216866,-0.0001219923399,505,64
+death,3,extra_trees,bmi_death_rate__log_slope10,BMI-attributable burden history,0.0001698222885,4.468420771e-06,505,65
+death,3,extra_trees,derived__current_daly_rate_gap,derived definition/gap features,0.000168497851,-8.087962312e-05,505,66
+death,3,extra_trees,gbd_daly_fraction__lag3,GBD attributable fraction history,0.0001680450103,6.775204197e-05,505,67
+death,3,extra_trees,gbd_daly_fraction__mean10,GBD attributable fraction history,0.0001647218386,5.925191342e-05,505,68
+death,3,extra_trees,gbd_death_fraction__lag10,GBD attributable fraction history,0.0001575270745,5.779866204e-05,505,69
+death,3,extra_trees,gbd_daly_fraction__lag10,GBD attributable fraction history,0.0001575047666,5.732714075e-05,505,70
+death,3,extra_trees,gbd_death_fraction__lag1,GBD attributable fraction history,0.0001535715014,3.774392698e-05,505,71
+death,3,extra_trees,overall_death_rate__mean10,overall liver-cancer burden history,0.0001528360308,-0.0001052013206,505,72
+death,3,extra_trees,overall_daly_rate__mean5,overall liver-cancer burden history,0.0001474473825,-7.883991972e-05,505,73
+death,3,extra_trees,overall_death_rate__lag5,overall liver-cancer burden history,0.0001453075756,-8.190094408e-05,505,74
+death,3,extra_trees,sdi__lag1,sociodemographic index history,0.0001450524354,2.33017818e-05,505,75
+death,3,extra_trees,overall_daly_rate__current,overall liver-cancer burden history,0.0001447709725,-7.396121629e-05,505,76
+death,3,extra_trees,overall_death_rate__delta5,overall liver-cancer burden history,0.000144636984,1.735850601e-05,505,77
+death,3,extra_trees,gbd_death_fraction__current,GBD attributable fraction history,0.0001442147983,5.421151255e-05,505,78
+death,3,extra_trees,overall_daly_rate__mean3,overall liver-cancer burden history,0.0001437575493,-8.140408936e-05,505,79
+death,3,extra_trees,overall_death_rate__lag10,overall liver-cancer burden history,0.0001385030446,-6.58558724e-05,505,80
+death,3,extra_trees,gbd_death_fraction__lag3,GBD attributable fraction history,0.0001357146133,2.391786487e-05,505,81
+death,3,extra_trees,sdi__current,sociodemographic index history,0.0001356780726,5.714266838e-06,505,82
+death,3,extra_trees,gbd_death_fraction__mean3,GBD attributable fraction history,0.0001346863615,2.966315379e-05,505,83
+death,3,extra_trees,overall_daly_rate__lag1,overall liver-cancer burden history,0.0001338894952,-7.124665216e-05,505,84
+death,3,extra_trees,sdi__lag10,sociodemographic index history,0.0001323995775,5.485831015e-05,505,85
+death,3,extra_trees,sdi__lag3,sociodemographic index history,0.000131908466,1.370576931e-05,505,86
+death,3,extra_trees,gbd_daly_fraction__delta10,GBD attributable fraction history,0.0001316083744,2.309047603e-05,505,87
+death,3,extra_trees,overall_death_rate__std3,overall liver-cancer burden history,0.0001302650239,6.760962704e-05,505,88
+death,3,extra_trees,gbd_death_fraction__current_rel_ui_width,GBD attributable fraction history,0.0001295991602,5.633558461e-05,505,89
+death,3,extra_trees,gbd_daly_fraction__current_rel_ui_width,GBD attributable fraction history,0.0001273479649,4.770473138e-05,505,90
+death,3,extra_trees,sdi__std10,sociodemographic index history,0.0001247249744,2.324426968e-06,505,91
+death,3,extra_trees,overall_daly_rate__delta10,overall liver-cancer burden history,0.0001246769331,4.381591842e-05,505,92
+death,3,extra_trees,bmi_death_rate__cv3,BMI-attributable burden history,0.0001232800171,-1.560725297e-05,505,93
+death,3,extra_trees,overall_daly_rate__cv10,overall liver-cancer burden history,0.0001228275988,3.106815361e-06,505,94
+death,3,extra_trees,sdi__mean10,sociodemographic index history,0.0001225730972,5.860824766e-06,505,95
+death,3,extra_trees,overall_death_rate__log_slope10,overall liver-cancer burden history,0.00012076014,-1.17181553e-05,505,96
+death,3,extra_trees,sdi__mean3,sociodemographic index history,0.0001196165869,8.789860226e-06,505,97
+death,3,extra_trees,gbd_death_fraction__std10,GBD attributable fraction history,0.000119398933,3.152154726e-05,505,98
+death,3,extra_trees,overall_daly_rate__delta5,overall liver-cancer burden history,0.0001174636407,1.353446245e-05,505,99
+death,3,extra_trees,gbd_death_fraction__lag5,GBD attributable fraction history,0.0001172097292,1.799388915e-05,505,100
+death,3,extra_trees,gbd_death_fraction__delta3,GBD attributable fraction history,0.0001160012542,5.43259276e-05,505,101
+death,3,extra_trees,gbd_death_fraction__delta10,GBD attributable fraction history,0.0001154917209,1.952124335e-05,505,102
+death,3,extra_trees,sdi__lag5,sociodemographic index history,0.0001136029047,8.320346869e-06,505,103
+death,3,extra_trees,bmi_daly_rate__std3,BMI-attributable burden history,0.0001135356877,4.807721049e-06,505,104
+death,3,extra_trees,sdi__cv10,sociodemographic index history,0.0001132739145,-2.548413212e-06,505,105
+death,3,extra_trees,gbd_death_fraction__delta5,GBD attributable fraction history,0.000112714354,4.57987039e-05,505,106
+death,3,extra_trees,sdi__mean5,sociodemographic index history,0.0001104001705,-1.317403274e-07,505,107
+death,3,extra_trees,overall_death_rate__delta10,overall liver-cancer burden history,0.0001103575641,1.730557563e-05,505,108
+death,3,extra_trees,overall_daly_rate__cv3,overall liver-cancer burden history,0.0001100440855,2.462117149e-05,505,109
+death,3,extra_trees,gbd_death_fraction__std5,GBD attributable fraction history,0.0001077680867,3.816502155e-05,505,110
+death,3,extra_trees,bmi_daly_rate__log_slope10,BMI-attributable burden history,0.0001075801611,-1.347696706e-05,505,111
+death,3,extra_trees,overall_daly_rate__lag5,overall liver-cancer burden history,0.0001070325129,-5.859538603e-05,505,112
+death,3,extra_trees,bmi_daly_rate__std5,BMI-attributable burden history,0.0001064894506,-7.810358843e-06,505,113
+death,3,extra_trees,derived__death_fraction_definition_gap_pp,derived definition/gap features,0.000105758342,5.125011111e-05,505,114
+death,3,extra_trees,derived__daly_fraction_definition_gap_pp,derived definition/gap features,0.0001040753317,3.351047394e-05,505,115
+death,3,extra_trees,overall_daly_rate__lag3,overall liver-cancer burden history,0.0001040031344,-5.370461315e-05,505,116
+death,3,extra_trees,gbd_death_fraction__mean10,GBD attributable fraction history,0.000103616827,3.358059391e-05,505,117
+death,3,extra_trees,gbd_daly_fraction__delta5,GBD attributable fraction history,0.0001034912192,5.247660342e-05,505,118
+death,3,extra_trees,overall_daly_rate__std10,overall liver-cancer burden history,0.0001034626292,6.466753271e-05,505,119
+death,3,extra_trees,overall_daly_rate__mean10,overall liver-cancer burden history,0.0001032243372,-5.350932152e-05,505,120
+death,3,extra_trees,overall_daly_rate__std5,overall liver-cancer burden history,0.00010292917,4.039610608e-05,505,121
+death,3,extra_trees,overall_daly_rate__std3,overall liver-cancer burden history,0.0001027699361,5.283696186e-05,505,122
+death,3,extra_trees,overall_death_rate__cv3,overall liver-cancer burden history,0.0001016771991,2.344595404e-05,505,123
+death,3,extra_trees,overall_death_rate__current_rel_ui_width,overall liver-cancer burden history,0.0001012448072,3.829225623e-05,505,124
+death,3,extra_trees,overall_daly_rate__log_slope10,overall liver-cancer burden history,0.0001009629723,-6.648780915e-06,505,125
+death,3,extra_trees,sdi__delta10,sociodemographic index history,0.0001002332059,3.323262014e-05,505,126
+death,3,extra_trees,gbd_daly_fraction__delta1,GBD attributable fraction history,0.0001002205642,3.828030745e-05,505,127
+death,3,extra_trees,gbd_daly_fraction__delta3,GBD attributable fraction history,9.976612189e-05,4.689053887e-05,505,128
+death,3,extra_trees,sdi__log_growth10,sociodemographic index history,9.525050838e-05,1.805196122e-05,505,129
+death,3,extra_trees,overall_death_rate__std5,overall liver-cancer burden history,9.405813281e-05,3.947836706e-05,505,130
+death,3,extra_trees,bmi_death_rate__cv10,BMI-attributable burden history,9.232330874e-05,-2.222927011e-05,505,131
+death,3,extra_trees,gbd_daly_fraction__std10,GBD attributable fraction history,9.227183586e-05,1.712421326e-05,505,132
+death,3,extra_trees,overall_daly_rate__current_rel_ui_width,overall liver-cancer burden history,9.170176049e-05,3.373008114e-05,505,133
+death,3,extra_trees,sdi__cv5,sociodemographic index history,8.992503641e-05,-7.832449223e-06,505,134
+death,3,extra_trees,gbd_daly_fraction__log_slope10,GBD attributable fraction history,8.775077954e-05,2.601492313e-05,505,135
+death,3,extra_trees,gbd_death_fraction__log_growth10,GBD attributable fraction history,8.740452064e-05,-1.682991769e-06,505,136
+death,3,extra_trees,sdi__log_slope10,sociodemographic index history,8.739166055e-05,-1.030094429e-07,505,137
+death,3,extra_trees,overall_death_rate__std10,overall liver-cancer burden history,8.738366747e-05,3.955252434e-05,505,138
+death,3,extra_trees,bmi_death_rate__cv5,BMI-attributable burden history,8.640507577e-05,-1.787310937e-05,505,139
+death,3,extra_trees,gbd_daly_fraction__log_slope5,GBD attributable fraction history,8.594665055e-05,5.778745016e-05,505,140
+death,3,extra_trees,gbd_daly_fraction__log_growth10,GBD attributable fraction history,8.519826981e-05,1.568209582e-05,505,141
+death,3,extra_trees,overall_death_rate__cv10,overall liver-cancer burden history,8.505388317e-05,-2.641609648e-05,505,142
+death,3,extra_trees,gbd_death_fraction__delta1,GBD attributable fraction history,8.468674237e-05,3.665292372e-05,505,143
+death,3,extra_trees,gbd_death_fraction__std3,GBD attributable fraction history,8.426470222e-05,3.66198664e-05,505,144
+death,3,extra_trees,gbd_death_fraction__log_slope10,GBD attributable fraction history,8.395422375e-05,2.489004501e-05,505,145
+death,3,extra_trees,gbd_daly_fraction__std5,GBD attributable fraction history,8.389934455e-05,4.343644048e-05,505,146
+death,3,extra_trees,gbd_daly_fraction__std3,GBD attributable fraction history,8.046433257e-05,2.995444436e-05,505,147
+death,3,extra_trees,bmi_daly_rate__cv10,BMI-attributable burden history,8.016301262e-05,-1.299103281e-05,505,148
+death,3,extra_trees,gbd_daly_fraction__cv10,GBD attributable fraction history,7.851644447e-05,1.870654213e-05,505,149
+death,3,extra_trees,bmi_daly_rate__current_rel_ui_width,BMI-attributable burden history,7.769787342e-05,-1.330934345e-05,505,150
+death,3,extra_trees,overall_daly_rate__cv5,overall liver-cancer burden history,7.580264458e-05,9.755726968e-06,505,151
+death,3,extra_trees,gbd_death_fraction__cv10,GBD attributable fraction history,7.568511763e-05,7.347062984e-06,505,152
+death,3,extra_trees,gbd_daly_fraction__log_growth5,GBD attributable fraction history,7.320556061e-05,4.258646124e-05,505,153
+death,3,extra_trees,sdi__log_slope5,sociodemographic index history,7.241868269e-05,-5.446365605e-06,505,154
+death,3,extra_trees,gbd_death_fraction__log_growth5,GBD attributable fraction history,7.019499844e-05,2.864405085e-05,505,155
+death,3,extra_trees,bmi_daly_rate__cv3,BMI-attributable burden history,7.018226093e-05,-1.257943924e-05,505,156
+death,3,extra_trees,sdi__std3,sociodemographic index history,6.993136572e-05,-9.719094826e-06,505,157
+death,3,extra_trees,sdi__log_growth3,sociodemographic index history,6.895768986e-05,-6.132021386e-06,505,158
+death,3,extra_trees,sdi__delta3,sociodemographic index history,6.528989144e-05,-4.150034176e-06,505,159
+death,3,extra_trees,sdi__log_growth5,sociodemographic index history,6.416354017e-05,-3.464169273e-06,505,160
+death,3,extra_trees,overall_daly_rate__lag10,overall liver-cancer burden history,6.285905458e-05,-3.120886317e-05,505,161
+death,3,extra_trees,gbd_daly_fraction__cv5,GBD attributable fraction history,6.251371461e-05,2.660432235e-05,505,162
+death,3,extra_trees,gbd_death_fraction__cv5,GBD attributable fraction history,6.153017045e-05,2.202827002e-05,505,163
+death,3,extra_trees,sdi__cv3,sociodemographic index history,6.087479867e-05,9.815972106e-06,505,164
+death,3,extra_trees,bmi_death_rate__current_rel_ui_width,BMI-attributable burden history,6.071753743e-05,4.687233923e-06,505,165
+death,3,extra_trees,bmi_daly_rate__cv5,BMI-attributable burden history,6.017774971e-05,-2.806202916e-05,505,166
+death,3,extra_trees,gbd_death_fraction__log_slope5,GBD attributable fraction history,5.993046586e-05,2.368816168e-05,505,167
+death,3,extra_trees,sdi__delta5,sociodemographic index history,5.907545214e-05,-4.397963398e-06,505,168
+death,3,extra_trees,sdi__delta1,sociodemographic index history,5.84181951e-05,4.025392132e-06,505,169
+death,3,extra_trees,gbd_daly_fraction__log_growth3,GBD attributable fraction history,5.687646163e-05,2.731413692e-05,505,170
+death,3,extra_trees,gbd_death_fraction__log_growth3,GBD attributable fraction history,5.462882303e-05,1.151120936e-05,505,171
+death,3,extra_trees,overall_death_rate__cv5,overall liver-cancer burden history,5.254019374e-05,8.938766914e-07,505,172
+death,3,extra_trees,sdi__std5,sociodemographic index history,4.9921089e-05,6.435603959e-06,505,173
+death,3,extra_trees,gbd_death_fraction__cv3,GBD attributable fraction history,4.730216171e-05,8.144427434e-06,505,174
+death,3,extra_trees,sdi__log_growth1,sociodemographic index history,4.26708113e-05,2.663506839e-06,505,175
+death,3,extra_trees,gbd_daly_fraction__cv3,GBD attributable fraction history,3.873732903e-05,8.9601284e-06,505,176
+death,3,extra_trees,gbd_death_fraction__log_growth1,GBD attributable fraction history,3.825973343e-05,1.005529847e-05,505,177
+death,3,extra_trees,gbd_daly_fraction__log_growth1,GBD attributable fraction history,3.733217368e-05,1.060343073e-05,505,178
+death,3,extra_trees,sdi__current_rel_ui_width,sociodemographic index history,0,0,505,179
+death,5,extra_trees,bmi_death_rate__current,BMI-attributable burden history,0.03050828461,0.01034301705,505,1
+death,5,extra_trees,bmi_death_rate__mean3,BMI-attributable burden history,0.02639809966,0.008710689208,505,2
+death,5,extra_trees,bmi_death_rate__lag1,BMI-attributable burden history,0.02353060148,0.007750689681,505,3
+death,5,extra_trees,bmi_daly_rate__current,BMI-attributable burden history,0.02075593694,0.006563980607,505,4
+death,5,extra_trees,bmi_death_rate__mean5,BMI-attributable burden history,0.02063620958,0.006537342074,505,5
+death,5,extra_trees,bmi_daly_rate__mean3,BMI-attributable burden history,0.01875610641,0.005797612884,505,6
+death,5,extra_trees,bmi_death_rate__lag3,BMI-attributable burden history,0.01775434389,0.005623388508,505,7
+death,5,extra_trees,bmi_daly_rate__lag1,BMI-attributable burden history,0.01542848521,0.004934126991,505,8
+death,5,extra_trees,bmi_daly_rate__mean5,BMI-attributable burden history,0.0143493271,0.004440438239,505,9
+death,5,extra_trees,bmi_death_rate__mean10,BMI-attributable burden history,0.01170041324,0.003517443648,505,10
+death,5,extra_trees,bmi_death_rate__lag5,BMI-attributable burden history,0.01053016047,0.003177645859,505,11
+death,5,extra_trees,bmi_daly_rate__lag5,BMI-attributable burden history,0.01035828448,0.002562430952,505,12
+death,5,extra_trees,bmi_daly_rate__mean10,BMI-attributable burden history,0.009694396846,0.003114873131,505,13
+death,5,extra_trees,bmi_daly_rate__lag3,BMI-attributable burden history,0.008615959671,0.002572779292,505,14
+death,5,extra_trees,bmi_death_rate__lag10,BMI-attributable burden history,0.003409285701,0.0004731111776,505,15
+death,5,extra_trees,bmi_daly_rate__lag10,BMI-attributable burden history,0.003280703101,0.0005528316955,505,16
+death,5,extra_trees,bmi_daly_rate__std10,BMI-attributable burden history,0.0009196058141,0.0002628025739,505,17
+death,5,extra_trees,bmi_death_rate__delta5,BMI-attributable burden history,0.0007406759217,4.068254995e-05,505,18
+death,5,extra_trees,bmi_death_rate__delta10,BMI-attributable burden history,0.0006162595236,0.0001195874578,505,19
+death,5,extra_trees,bmi_daly_rate__delta5,BMI-attributable burden history,0.0005696270262,4.560753455e-05,505,20
+death,5,extra_trees,bmi_death_rate__delta1,BMI-attributable burden history,0.0005298905419,3.724609617e-05,505,21
+death,5,extra_trees,bmi_death_rate__delta3,BMI-attributable burden history,0.0005019356382,6.111718394e-05,505,22
+death,5,extra_trees,gbd_daly_fraction__mean10,GBD attributable fraction history,0.0004945613903,0.0001816233007,505,23
+death,5,extra_trees,bmi_daly_rate__delta1,BMI-attributable burden history,0.000443421576,1.251519507e-05,505,24
+death,5,extra_trees,bmi_daly_rate__log_growth5,BMI-attributable burden history,0.0004309907405,8.810123194e-05,505,25
+death,5,extra_trees,bmi_daly_rate__log_growth1,BMI-attributable burden history,0.0004292202238,7.08946881e-05,505,26
+death,5,extra_trees,bmi_daly_rate__delta3,BMI-attributable burden history,0.0004273357491,4.151078903e-05,505,27
+death,5,extra_trees,overall_death_rate__log_growth5,overall liver-cancer burden history,0.000414578575,-1.434557946e-05,505,28
+death,5,extra_trees,bmi_death_rate__log_growth5,BMI-attributable burden history,0.0004104523658,3.846922554e-05,505,29
+death,5,extra_trees,gbd_daly_fraction__lag3,GBD attributable fraction history,0.0004093136064,0.0001764587691,505,30
+death,5,extra_trees,bmi_death_rate__std10,BMI-attributable burden history,0.000392873733,9.360856422e-05,505,31
+death,5,extra_trees,bmi_daly_rate__log_growth10,BMI-attributable burden history,0.0003819385115,3.787164167e-05,505,32
+death,5,extra_trees,bmi_daly_rate__delta10,BMI-attributable burden history,0.0003797467855,2.691255345e-05,505,33
+death,5,extra_trees,overall_daly_rate__log_growth5,overall liver-cancer burden history,0.0003705615433,7.031080481e-06,505,34
+death,5,extra_trees,gbd_daly_fraction__mean3,GBD attributable fraction history,0.0003654904022,0.0001031905897,505,35
+death,5,extra_trees,gbd_death_fraction__delta10,GBD attributable fraction history,0.0003651047094,2.284010812e-05,505,36
+death,5,extra_trees,gbd_daly_fraction__current,GBD attributable fraction history,0.0003596997729,0.0001326855994,505,37
+death,5,extra_trees,bmi_death_rate__log_growth1,BMI-attributable burden history,0.0003587537137,7.28886722e-05,505,38
+death,5,extra_trees,gbd_daly_fraction__current_rel_ui_width,GBD attributable fraction history,0.0003576317771,0.0001743041149,505,39
+death,5,extra_trees,bmi_death_rate__log_growth3,BMI-attributable burden history,0.000357631557,3.590772589e-05,505,40
+death,5,extra_trees,gbd_daly_fraction__lag1,GBD attributable fraction history,0.0003409654398,0.0001278643436,505,41
+death,5,extra_trees,bmi_daly_rate__log_growth3,BMI-attributable burden history,0.000326828114,6.463139669e-05,505,42
+death,5,extra_trees,bmi_daly_rate__log_slope5,BMI-attributable burden history,0.0003159893515,4.669056547e-05,505,43
+death,5,extra_trees,gbd_daly_fraction__mean5,GBD attributable fraction history,0.0003127088641,0.000117107524,505,44
+death,5,extra_trees,bmi_death_rate__log_growth10,BMI-attributable burden history,0.0003079457512,4.296494737e-05,505,45
+death,5,extra_trees,gbd_death_fraction__std10,GBD attributable fraction history,0.0003061380445,-8.218119187e-06,505,46
+death,5,extra_trees,overall_daly_rate__log_growth10,overall liver-cancer burden history,0.0002970268541,6.448323296e-05,505,47
+death,5,extra_trees,gbd_daly_fraction__lag10,GBD attributable fraction history,0.0002952599971,0.0001124228506,505,48
+death,5,extra_trees,overall_death_rate__delta1,overall liver-cancer burden history,0.0002936183687,7.493702909e-05,505,49
+death,5,extra_trees,gbd_death_fraction__delta5,GBD attributable fraction history,0.0002839088332,4.792350632e-05,505,50
+death,5,extra_trees,overall_daly_rate__log_growth1,overall liver-cancer burden history,0.0002826255904,8.146143278e-05,505,51
+death,5,extra_trees,gbd_death_fraction__current,GBD attributable fraction history,0.0002815590533,0.0001212381836,505,52
+death,5,extra_trees,overall_death_rate__log_growth1,overall liver-cancer burden history,0.0002776758691,3.265427286e-05,505,53
+death,5,extra_trees,overall_death_rate__log_growth3,overall liver-cancer burden history,0.0002764296104,-1.367330951e-05,505,54
+death,5,extra_trees,overall_death_rate__log_growth10,overall liver-cancer burden history,0.0002755116607,4.868336178e-05,505,55
+death,5,extra_trees,gbd_daly_fraction__delta10,GBD attributable fraction history,0.0002692284047,5.977672598e-06,505,56
+death,5,extra_trees,gbd_death_fraction__mean5,GBD attributable fraction history,0.0002657383769,0.0001036495906,505,57
+death,5,extra_trees,overall_death_rate__delta5,overall liver-cancer burden history,0.0002611400933,8.799946538e-06,505,58
+death,5,extra_trees,bmi_death_rate__log_slope5,BMI-attributable burden history,0.0002569589884,4.641226062e-05,505,59
+death,5,extra_trees,gbd_death_fraction__mean3,GBD attributable fraction history,0.0002565316504,9.233274281e-05,505,60
+death,5,extra_trees,gbd_daly_fraction__lag5,GBD attributable fraction history,0.0002560669238,9.122708815e-05,505,61
+death,5,extra_trees,overall_death_rate__mean5,overall liver-cancer burden history,0.000255310758,-0.0001758987782,505,62
+death,5,extra_trees,gbd_death_fraction__current_rel_ui_width,GBD attributable fraction history,0.0002549680695,0.000135166258,505,63
+death,5,extra_trees,bmi_daly_rate__log_slope10,BMI-attributable burden history,0.0002525698817,4.54929827e-05,505,64
+death,5,extra_trees,overall_daly_rate__cv10,overall liver-cancer burden history,0.0002506988568,1.445621795e-05,505,65
+death,5,extra_trees,overall_daly_rate__delta1,overall liver-cancer burden history,0.0002505993621,8.157772227e-05,505,66
+death,5,extra_trees,overall_daly_rate__log_growth3,overall liver-cancer burden history,0.0002499577708,4.418593217e-05,505,67
+death,5,extra_trees,sdi__lag1,sociodemographic index history,0.000243452503,1.050367539e-05,505,68
+death,5,extra_trees,derived__current_death_rate_gap,derived definition/gap features,0.0002426563855,-0.0001489728749,505,69
+death,5,extra_trees,overall_death_rate__current,overall liver-cancer burden history,0.0002387893916,-0.0001122610851,505,70
+death,5,extra_trees,gbd_death_fraction__lag1,GBD attributable fraction history,0.0002378699235,0.0001034174784,505,71
+death,5,extra_trees,overall_death_rate__log_slope5,overall liver-cancer burden history,0.0002370703303,3.073426891e-06,505,72
+death,5,extra_trees,bmi_death_rate__log_slope10,BMI-attributable burden history,0.0002360876508,3.346768884e-05,505,73
+death,5,extra_trees,overall_daly_rate__std10,overall liver-cancer burden history,0.0002355466483,0.000177855821,505,74
+death,5,extra_trees,overall_daly_rate__delta3,overall liver-cancer burden history,0.0002350728655,5.006082835e-05,505,75
+death,5,extra_trees,gbd_daly_fraction__delta5,GBD attributable fraction history,0.000233878956,7.403970227e-05,505,76
+death,5,extra_trees,overall_daly_rate__log_slope10,overall liver-cancer burden history,0.0002338070688,5.959189574e-05,505,77
+death,5,extra_trees,sdi__lag5,sociodemographic index history,0.0002322604959,5.120898815e-05,505,78
+death,5,extra_trees,gbd_death_fraction__lag3,GBD attributable fraction history,0.0002295315664,8.144419615e-05,505,79
+death,5,extra_trees,overall_daly_rate__log_slope5,overall liver-cancer burden history,0.0002277392262,-1.053633979e-05,505,80
+death,5,extra_trees,overall_death_rate__delta3,overall liver-cancer burden history,0.0002275805408,3.284811754e-05,505,81
+death,5,extra_trees,sdi__current,sociodemographic index history,0.0002264910656,1.340344353e-05,505,82
+death,5,extra_trees,gbd_death_fraction__std5,GBD attributable fraction history,0.0002244552968,3.333147354e-05,505,83
+death,5,extra_trees,bmi_death_rate__std5,BMI-attributable burden history,0.0002232622025,9.029173102e-06,505,84
+death,5,extra_trees,sdi__cv5,sociodemographic index history,0.0002232377564,2.518414985e-06,505,85
+death,5,extra_trees,gbd_death_fraction__lag5,GBD attributable fraction history,0.0002230896797,4.861424407e-05,505,86
+death,5,extra_trees,gbd_daly_fraction__std10,GBD attributable fraction history,0.0002222832983,-1.486274718e-05,505,87
+death,5,extra_trees,overall_daly_rate__delta5,overall liver-cancer burden history,0.0002216741466,4.921263512e-05,505,88
+death,5,extra_trees,sdi__mean3,sociodemographic index history,0.0002202839132,2.067427401e-06,505,89
+death,5,extra_trees,sdi__mean5,sociodemographic index history,0.0002176054641,4.015821339e-05,505,90
+death,5,extra_trees,overall_death_rate__current_rel_ui_width,overall liver-cancer burden history,0.0002152902449,2.002140146e-05,505,91
+death,5,extra_trees,overall_daly_rate__current_rel_ui_width,overall liver-cancer burden history,0.0002129963068,-1.755071995e-06,505,92
+death,5,extra_trees,overall_death_rate__std10,overall liver-cancer burden history,0.0002038978215,0.0001398519382,505,93
+death,5,extra_trees,overall_death_rate__log_slope10,overall liver-cancer burden history,0.0002037149971,1.367095772e-05,505,94
+death,5,extra_trees,gbd_death_fraction__mean10,GBD attributable fraction history,0.0001964365034,8.107205434e-05,505,95
+death,5,extra_trees,derived__daly_fraction_definition_gap_pp,derived definition/gap features,0.0001907610897,9.913900498e-05,505,96
+death,5,extra_trees,overall_death_rate__mean3,overall liver-cancer burden history,0.0001902290544,-9.862408125e-05,505,97
+death,5,extra_trees,derived__death_fraction_definition_gap_pp,derived definition/gap features,0.0001883355305,7.733106395e-05,505,98
+death,5,extra_trees,gbd_death_fraction__lag10,GBD attributable fraction history,0.0001857843856,5.141878931e-05,505,99
+death,5,extra_trees,sdi__mean10,sociodemographic index history,0.0001850373341,3.313345551e-05,505,100
+death,5,extra_trees,sdi__std10,sociodemographic index history,0.0001848610727,1.703079347e-05,505,101
+death,5,extra_trees,overall_death_rate__delta10,overall liver-cancer burden history,0.000178568178,8.631684553e-06,505,102
+death,5,extra_trees,gbd_death_fraction__delta3,GBD attributable fraction history,0.0001762942324,3.834861286e-05,505,103
+death,5,extra_trees,overall_death_rate__lag5,overall liver-cancer burden history,0.0001754695464,-0.0001163460884,505,104
+death,5,extra_trees,overall_daly_rate__delta10,overall liver-cancer burden history,0.0001742492091,6.673908555e-05,505,105
+death,5,extra_trees,sdi__lag10,sociodemographic index history,0.00016847559,5.504963984e-05,505,106
+death,5,extra_trees,sdi__lag3,sociodemographic index history,0.0001680474341,1.095560447e-05,505,107
+death,5,extra_trees,gbd_death_fraction__log_growth10,GBD attributable fraction history,0.0001660168037,-1.47503222e-06,505,108
+death,5,extra_trees,overall_daly_rate__current,overall liver-cancer burden history,0.0001626871012,-8.570668821e-05,505,109
+death,5,extra_trees,sdi__cv10,sociodemographic index history,0.0001618500362,-1.598033547e-06,505,110
+death,5,extra_trees,sdi__cv3,sociodemographic index history,0.0001602347095,-1.08990208e-05,505,111
+death,5,extra_trees,overall_daly_rate__lag1,overall liver-cancer burden history,0.0001596302586,-9.971379256e-05,505,112
+death,5,extra_trees,gbd_daly_fraction__log_growth10,GBD attributable fraction history,0.0001572122528,7.556865257e-06,505,113
+death,5,extra_trees,gbd_death_fraction__std3,GBD attributable fraction history,0.0001554770988,3.110649852e-05,505,114
+death,5,extra_trees,overall_daly_rate__lag5,overall liver-cancer burden history,0.0001494136066,-9.534495951e-05,505,115
+death,5,extra_trees,bmi_death_rate__std3,BMI-attributable burden history,0.0001471552996,1.117247929e-05,505,116
+death,5,extra_trees,bmi_death_rate__cv10,BMI-attributable burden history,0.0001462162809,-2.986194345e-05,505,117
+death,5,extra_trees,sdi__delta10,sociodemographic index history,0.0001451423463,2.483934057e-05,505,118
+death,5,extra_trees,gbd_death_fraction__log_slope10,GBD attributable fraction history,0.0001445757737,1.05100198e-05,505,119
+death,5,extra_trees,overall_death_rate__lag3,overall liver-cancer burden history,0.0001440799308,-7.883179993e-05,505,120
+death,5,extra_trees,sdi__log_slope5,sociodemographic index history,0.0001434109432,-7.508617048e-06,505,121
+death,5,extra_trees,overall_daly_rate__mean10,overall liver-cancer burden history,0.000140550311,-6.111056648e-05,505,122
+death,5,extra_trees,sdi__log_growth5,sociodemographic index history,0.000138691329,9.285095803e-06,505,123
+death,5,extra_trees,sdi__std5,sociodemographic index history,0.0001356164232,-1.198910351e-06,505,124
+death,5,extra_trees,derived__current_daly_rate_gap,derived definition/gap features,0.0001352877292,-7.34188884e-05,505,125
+death,5,extra_trees,gbd_daly_fraction__cv10,GBD attributable fraction history,0.0001342569338,3.008124936e-05,505,126
+death,5,extra_trees,overall_death_rate__lag1,overall liver-cancer burden history,0.0001341168553,-4.880394654e-05,505,127
+death,5,extra_trees,sdi__log_slope10,sociodemographic index history,0.0001318311682,-6.665698459e-06,505,128
+death,5,extra_trees,overall_death_rate__cv10,overall liver-cancer burden history,0.0001316510806,-3.179982464e-06,505,129
+death,5,extra_trees,gbd_death_fraction__cv10,GBD attributable fraction history,0.0001312144873,9.098974916e-06,505,130
+death,5,extra_trees,overall_death_rate__lag10,overall liver-cancer burden history,0.0001304397697,-7.17086301e-05,505,131
+death,5,extra_trees,gbd_daly_fraction__std5,GBD attributable fraction history,0.0001300817379,2.754520451e-05,505,132
+death,5,extra_trees,gbd_daly_fraction__log_growth5,GBD attributable fraction history,0.0001297090115,4.450486846e-05,505,133
+death,5,extra_trees,overall_death_rate__std3,overall liver-cancer burden history,0.0001287570358,6.813175548e-05,505,134
+death,5,extra_trees,sdi__log_growth10,sociodemographic index history,0.0001264467532,5.784559329e-07,505,135
+death,5,extra_trees,gbd_daly_fraction__delta1,GBD attributable fraction history,0.0001248104985,4.107240915e-05,505,136
+death,5,extra_trees,bmi_daly_rate__current_rel_ui_width,BMI-attributable burden history,0.0001232941354,-7.68332335e-06,505,137
+death,5,extra_trees,bmi_death_rate__current_rel_ui_width,BMI-attributable burden history,0.000122640966,-1.199268855e-05,505,138
+death,5,extra_trees,gbd_daly_fraction__delta3,GBD attributable fraction history,0.0001223075677,2.919495148e-05,505,139
+death,5,extra_trees,gbd_death_fraction__log_growth5,GBD attributable fraction history,0.0001215195559,2.111315461e-05,505,140
+death,5,extra_trees,gbd_death_fraction__delta1,GBD attributable fraction history,0.000120501817,2.216608072e-05,505,141
+death,5,extra_trees,sdi__log_growth3,sociodemographic index history,0.0001194817825,-1.080469387e-05,505,142
+death,5,extra_trees,overall_death_rate__mean10,overall liver-cancer burden history,0.0001179051731,-6.26391047e-05,505,143
+death,5,extra_trees,bmi_daly_rate__std5,BMI-attributable burden history,0.0001175030184,4.497414618e-06,505,144
+death,5,extra_trees,overall_daly_rate__mean3,overall liver-cancer burden history,0.0001166666859,-6.423898954e-05,505,145
+death,5,extra_trees,bmi_daly_rate__cv10,BMI-attributable burden history,0.000115739006,-1.16408761e-05,505,146
+death,5,extra_trees,overall_death_rate__std5,overall liver-cancer burden history,0.0001155240991,5.817734457e-05,505,147
+death,5,extra_trees,gbd_death_fraction__log_slope5,GBD attributable fraction history,0.0001154379773,3.218064466e-05,505,148
+death,5,extra_trees,gbd_daly_fraction__log_slope5,GBD attributable fraction history,0.0001150092914,5.720935201e-05,505,149
+death,5,extra_trees,overall_daly_rate__std3,overall liver-cancer burden history,0.000114563443,6.030252171e-05,505,150
+death,5,extra_trees,gbd_daly_fraction__log_slope10,GBD attributable fraction history,0.0001126083964,6.749633901e-06,505,151
+death,5,extra_trees,overall_daly_rate__std5,overall liver-cancer burden history,0.000109639125,5.47676872e-05,505,152
+death,5,extra_trees,bmi_death_rate__cv3,BMI-attributable burden history,0.0001089716845,-4.240508443e-06,505,153
+death,5,extra_trees,overall_daly_rate__lag3,overall liver-cancer burden history,0.000105169245,-5.522058641e-05,505,154
+death,5,extra_trees,sdi__delta5,sociodemographic index history,0.0001043612724,-8.726386535e-06,505,155
+death,5,extra_trees,bmi_daly_rate__std3,BMI-attributable burden history,0.0001039843442,-5.379990791e-06,505,156
+death,5,extra_trees,overall_daly_rate__cv3,overall liver-cancer burden history,0.0001030771886,3.69310049e-05,505,157
+death,5,extra_trees,gbd_death_fraction__cv5,GBD attributable fraction history,0.0001026243012,3.80408643e-05,505,158
+death,5,extra_trees,gbd_daly_fraction__std3,GBD attributable fraction history,9.595044918e-05,1.819075079e-05,505,159
+death,5,extra_trees,gbd_daly_fraction__log_growth3,GBD attributable fraction history,9.497655791e-05,4.500400992e-05,505,160
+death,5,extra_trees,overall_death_rate__cv3,overall liver-cancer burden history,8.935170493e-05,1.987588262e-05,505,161
+death,5,extra_trees,sdi__std3,sociodemographic index history,8.880709407e-05,6.357394563e-06,505,162
+death,5,extra_trees,bmi_death_rate__cv5,BMI-attributable burden history,8.758341045e-05,-2.287010374e-05,505,163
+death,5,extra_trees,sdi__log_growth1,sociodemographic index history,8.291463126e-05,2.893921036e-06,505,164
+death,5,extra_trees,sdi__delta1,sociodemographic index history,8.256247952e-05,-8.56322935e-06,505,165
+death,5,extra_trees,overall_daly_rate__lag10,overall liver-cancer burden history,8.242507833e-05,-1.22649876e-05,505,166
+death,5,extra_trees,overall_daly_rate__mean5,overall liver-cancer burden history,8.07174076e-05,-3.623808122e-05,505,167
+death,5,extra_trees,bmi_daly_rate__cv5,BMI-attributable burden history,8.059915484e-05,-1.07668166e-05,505,168
+death,5,extra_trees,sdi__delta3,sociodemographic index history,8.056556518e-05,-3.255186441e-06,505,169
+death,5,extra_trees,gbd_daly_fraction__cv5,GBD attributable fraction history,7.550618777e-05,2.879424071e-05,505,170
+death,5,extra_trees,gbd_death_fraction__log_growth3,GBD attributable fraction history,7.191144604e-05,2.433019327e-05,505,171
+death,5,extra_trees,gbd_daly_fraction__log_growth1,GBD attributable fraction history,6.085142359e-05,2.936536979e-05,505,172
+death,5,extra_trees,gbd_death_fraction__cv3,GBD attributable fraction history,6.068455775e-05,6.846047095e-06,505,173
+death,5,extra_trees,bmi_daly_rate__cv3,BMI-attributable burden history,5.954902812e-05,-1.606221298e-05,505,174
+death,5,extra_trees,overall_daly_rate__cv5,overall liver-cancer burden history,5.884700708e-05,6.825691124e-06,505,175
+death,5,extra_trees,overall_death_rate__cv5,overall liver-cancer burden history,5.747580825e-05,9.801445044e-06,505,176
+death,5,extra_trees,gbd_daly_fraction__cv3,GBD attributable fraction history,5.144949645e-05,2.465584409e-05,505,177
+death,5,extra_trees,gbd_death_fraction__log_growth1,GBD attributable fraction history,4.610781104e-05,2.182138626e-05,505,178
+death,5,extra_trees,sdi__current_rel_ui_width,sociodemographic index history,0,0,505,179

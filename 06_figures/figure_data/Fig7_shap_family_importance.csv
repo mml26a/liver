@@ -1,0 +1,31 @@
+outcome,horizon,tree_family,feature_family,sum_mean_absolute_shap,proportion_of_total_absolute_shap
+daly,1,random_forest,BMI-attributable burden history,0.6812788108,0.9804396028
+daly,1,random_forest,GBD attributable fraction history,0.002973990647,0.00427991912
+daly,1,random_forest,derived definition/gap features,0.0009180194671,0.001321136996
+daly,1,random_forest,overall liver-cancer burden history,0.008451549634,0.01216276484
+daly,1,random_forest,sociodemographic index history,0.001248388289,0.001796576231
+daly,3,extra_trees,BMI-attributable burden history,0.6326040892,0.9330906898
+daly,3,extra_trees,GBD attributable fraction history,0.01295190067,0.01910404649
+daly,3,extra_trees,derived definition/gap features,0.001679210771,0.00247683498
+daly,3,extra_trees,overall liver-cancer burden history,0.0245867459,0.03626543692
+daly,3,extra_trees,sociodemographic index history,0.006144403501,0.009062991844
+daly,5,extra_trees,BMI-attributable burden history,0.4593688143,0.60396937
+daly,5,extra_trees,GBD attributable fraction history,0.1373553277,0.1805921694
+daly,5,extra_trees,derived definition/gap features,0.01341090054,0.01763239667
+daly,5,extra_trees,overall liver-cancer burden history,0.1401433688,0.1842578328
+daly,5,extra_trees,sociodemographic index history,0.01030455382,0.01354823114
+death,1,extra_trees,BMI-attributable burden history,0.2650503625,0.9706703293
+death,1,extra_trees,GBD attributable fraction history,0.001448349506,0.005304161365
+death,1,extra_trees,derived definition/gap features,0.0004584684494,0.001679008158
+death,1,extra_trees,overall liver-cancer burden history,0.00541998046,0.01984911158
+death,1,extra_trees,sociodemographic index history,0.0006819349351,0.00249738956
+death,3,extra_trees,BMI-attributable burden history,0.2668724443,0.9419729857
+death,3,extra_trees,GBD attributable fraction history,0.005660821335,0.01998085935
+death,3,extra_trees,derived definition/gap features,0.0005698930034,0.002011537068
+death,3,extra_trees,overall liver-cancer burden history,0.007975294944,0.02815019891
+death,3,extra_trees,sociodemographic index history,0.002233752127,0.007884418964
+death,5,extra_trees,BMI-attributable burden history,0.2567298361,0.9139416601
+death,5,extra_trees,GBD attributable fraction history,0.01004530059,0.03576062229
+death,5,extra_trees,derived definition/gap features,0.000757040735,0.002695016195
+death,5,extra_trees,overall liver-cancer burden history,0.009600118405,0.03417580242
+death,5,extra_trees,sociodemographic index history,0.003771669163,0.01342689899

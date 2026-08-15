@@ -1,0 +1,7 @@
+partition,outcome,horizon,selected_family,reference_family,estimand,estimate,ci_lower,ci_upper,bootstrap_probability_below_zero,n_countries,replicates,task,task_order
+test_spatiotemporal_unseen_country,death,5,extra_trees,pooled_ridge,selected_minus_reference_rmsle,0.06142412523,-0.005491586057,0.1276569567,0.0955,41,2000,Death 5 y,5
+test_spatiotemporal_unseen_country,death,3,extra_trees,pooled_ridge,selected_minus_reference_rmsle,0.06960997921,-0.00148044923,0.1401658575,0.062,41,2000,Death 3 y,4
+test_spatiotemporal_unseen_country,death,1,gru,pooled_ridge,selected_minus_reference_rmsle,0.0001129581715,-0.001240508232,0.001251427944,0.4025,41,2000,Death 1 y,3
+test_spatiotemporal_unseen_country,daly,5,extra_trees,pooled_ridge,selected_minus_reference_rmsle,0.09326508741,0.009500806386,0.1932328967,0.002,41,2000,DALY 5 y,2
+test_spatiotemporal_unseen_country,daly,3,extra_trees,pooled_ridge,selected_minus_reference_rmsle,0.04251337279,0.001360476867,0.09538989679,0.014,41,2000,DALY 3 y,1
+test_spatiotemporal_unseen_country,daly,1,gru,pooled_ridge,selected_minus_reference_rmsle,0.001894894565,-0.002323137097,0.005360881444,0.1585,41,2000,DALY 1 y,0
